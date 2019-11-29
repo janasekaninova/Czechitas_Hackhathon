@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* hlavicka */
+
+
+
+
+
+/* menu */
+.menu {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 0;
+    margin: 50px 0 50px 0;
+}
+
+.menu a {
+    color: silver;
+    text-decoration: none;
+    display: block;
+    border-bottom: 0.1px solid silver;
+    padding: 7px;
+    opacity: 0.5;
+}
+
+
+
+/* vyhledávací formulář */
+
+
+
+
+
+
+
+
+
+
+/* fotogalerie
+
+    .fotogalerie img {
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.fotogalerie img:hover {
+    filter: grayscale(0);
+} */
+
+
+/* paticka */
+
+footer {
+    color:silver;
+    background-color:  #f5f5f5;
+    font-weight: bold;
+    padding: 15px;
+}
+
+footer a {
+    color: silver;
+    font-weight: normal;
+}
