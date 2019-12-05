@@ -46,10 +46,15 @@ header {
 }
 
 /* vyhledávací formulář */
+h2 {
+    font-size: 36px;
+    margin-top: 5px;
+}
 .formular {
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
+    background-color: ;
 }
 
 /* fotogalerie */
@@ -60,18 +65,14 @@ header {
     flex-flow: row wrap;
 }
 
-
-
-
-
-/*     .fotogalerie img {
+.fotogalerie img {
     filter: grayscale(100%);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .fotogalerie img:hover {
     filter: grayscale(0);
-}  */
+} 
 
 
 /* paticka */
