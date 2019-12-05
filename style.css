@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-
 /* hlavicka */
 header {
     background-image: 
@@ -21,14 +20,13 @@ header {
 }
 
 .perex {
-    padding: 50px 50px 50px 50px;
+    padding: 50px;
 }
 
 .logo {
     border-radius: 50%;
     padding: 90px 0 ;
 }
-
 
 /* menu */
 .menu {
@@ -47,37 +45,36 @@ header {
     padding: 7px;
 }
 
-
-
 /* vyhledávací formulář */
-
 .formular {
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
 }
 
+/* fotogalerie */
+.fotogalerie {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+}
 
 
 
 
 
-
-
-/* fotogalerie
-
-    .fotogalerie img {
+/*     .fotogalerie img {
     filter: grayscale(100%);
     transition: 0.5s;
 }
 
 .fotogalerie img:hover {
     filter: grayscale(0);
-} */
+}  */
 
 
 /* paticka */
-
 footer {
     color: white;
     background-color: #280004; 
