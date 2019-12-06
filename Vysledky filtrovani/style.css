@@ -45,25 +45,18 @@ header {
     padding: 7px;
 }
 
+/* vysledky */
 
-/* Janina */
-
-
-
-
-
-
-
-
-/* Janca */
-
-.fotoJanca {
-    
+.karticka {
+    background-color: #f2e9ae;
+    margin: 10px 0;
+    padding: 10px;
 }
 
-
-
-
+.detailSkoly {
+    margin: 0;
+    padding: 0;
+}
 
 /* paticka */
 
@@ -77,4 +70,24 @@ footer {
 footer a {
     color: white;
     font-weight: normal;
+}
+
+/*///////////////////////// tablet ////////////////////////////////*/
+@media (min-width: 500px) {
+    .menu {
+        display: flex;
+        margin: auto;
+    }
+
+    .menu li {
+        border-bottom: 1px solid #ffffff;  
+        flex: 0 0 25%;
+    }
+}
+
+/*///////////////////////// PC ////////////////////////////////*/
+@media (min-width: 1000px) {
+    .menu {
+        padding: 150px;
+    }
 }

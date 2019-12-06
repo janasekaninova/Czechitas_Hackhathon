@@ -88,3 +88,23 @@ footer a {
     color: white;
     font-weight: normal;
 }
+
+/*///////////////////////// tablet ////////////////////////////////*/
+@media (min-width: 500px) {
+    .menu {
+        display: flex;
+        margin: auto;
+    }
+
+    .menu li {
+        border-bottom: 1px solid #ffffff;  
+        flex: 0 0 33%;
+    }
+}
+
+/*///////////////////////// PC ////////////////////////////////*/
+@media (min-width: 1000px) {
+    .menu {
+        padding: 150px;
+    }
+}
