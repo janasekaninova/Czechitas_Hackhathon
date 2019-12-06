@@ -12,15 +12,15 @@ header {
     background-position: center;
     text-align: center;
     color: #f5f5f5;
-    padding: 130px 0;
+    padding: 160px 0 0 0;
 }
 
 .titulek {
-    margin: 20px 10px 50px 10px;
+    margin: 50px 10px 50px 10px;
 }
 
 .perex {
-    padding: 50px;
+    padding: 40px;
 }
 
 .logo {
@@ -33,17 +33,18 @@ header {
     list-style: none;
     text-transform: uppercase;
     text-align: center;
-    padding-left: 0;
-    margin: 30px 0 50px 0;
+    padding: 50px;
+    margin: 0;
 }
 
 .menu a {
-    color: rgb(49, 24, 1);
+    color: #ffffff;
     text-decoration: none;
     display: block;
-    border-bottom: 0.2px solid rgb(49, 24, 1);
+    border-bottom: 0.2px solid #ffffff;
     padding: 7px;
 }
+
 
 /* vyhledávací formulář */
 h2 {
