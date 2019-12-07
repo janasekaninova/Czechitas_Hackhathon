@@ -1,12 +1,14 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 /* hlavicka */
 header {
     background-image: 
         linear-gradient(to bottom,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("images/mitchell-griest-EKXCGy4Zsbg-unsplash.jpg");
+        url("../images/mitchell-griest-EKXCGy4Zsbg-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: 100%, cover;
     background-position: center;
@@ -49,7 +51,7 @@ header {
 
 .karticka {
     background-color: #f3ebb6;
-    margin: 10px 0;
+    margin: 10px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;     
