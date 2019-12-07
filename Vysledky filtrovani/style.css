@@ -48,18 +48,25 @@ header {
 /* vysledky */
 
 .karticka {
-    background-color: #f2e9ae;
+    background-color: #f3ebb6;
     margin: 10px 0;
     padding: 10px;
-}
-
-.detailSkoly {
-    margin: 0;
-    padding: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;     
 }
 
+.karticka a {
+    flex-basis: 100%;
+    margin: 10px 10px 0 0;
+}
+
+.karticka img {
+    border-radius: 10%;
+}
+
+.detailyNazvy {
+    padding-right: 20px;
+}
 
 /* paticka */
 
@@ -79,12 +86,20 @@ footer a {
 @media (min-width: 500px) {
     .menu {
         display: flex;
-        margin: auto;
     }
 
     .menu li {
         border-bottom: 1px solid #ffffff;  
         flex: 0 0 25%;
+    }
+
+    .karticka {
+        flex-direction: row;
+    }
+
+    .karticka a {
+        flex-basis: auto;
+        margin: 16px 20px 0 16px;
     }
 }
 

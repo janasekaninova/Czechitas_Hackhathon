@@ -93,7 +93,6 @@ footer a {
 @media (min-width: 500px) {
     .menu {
         display: flex;
-        margin: auto;
     }
 
     .menu li {
