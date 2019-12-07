@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* hlavicka */
+header {
+    background-image: 
+        linear-gradient(to bottom,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("../images/mitchell-griest-EKXCGy4Zsbg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, cover;
+    background-position: center;
+    text-align: center;
+    color: #f5f5f5;
+    padding: 60px 0 0 0;
+}
+
+.titulek {
+    margin: 50px 10px;
+    font-size: 42px;
+}
+
+.logo {
+    border-radius: 50%;
+    padding: 0;
+}
+
+.perex {
+    padding: 10px 40px;
+}
+
+/* menu */
+.menu {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    border-bottom: 0.2px solid #ffffff;
+    padding: 7px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+h3 {
+    padding: 0 50px;
+}
+
+p {
+    padding: 0 30px;
+}
+
+/*///////////////////////// tablet ////////////////////////////////*/
+@media (min-width: 500px) {
+    .menu {
+        display: flex;
+    }
+
+    .menu li {
+        border-bottom: 1px solid #ffffff;  
+        flex: 0 0 25%;
+    }
+}
+
+/*///////////////////////// PC ////////////////////////////////*/
+@media (min-width: 1000px) {
+    .menu {
+        padding: 50px 150px;
+    }
+}
