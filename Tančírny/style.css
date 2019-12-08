@@ -95,7 +95,7 @@ footer a {
 }
 
 /*///////////////////////// tablet ////////////////////////////////*/
-@media (min-width: 500px) {
+@media (min-width: 700px) {
     .menu {
         display: flex;
     }
@@ -107,7 +107,7 @@ footer a {
 }
 
 /*///////////////////////// PC ////////////////////////////////*/
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
     .menu {
         padding: 50px 150px;
     }

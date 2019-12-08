@@ -74,10 +74,11 @@ label {
 
 /* fotogalerie */
 .fotogalerie {
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     display: flex;
     flex-flow: row wrap;
+    padding: 40px;
 }
 
 .fotogalerie img {
