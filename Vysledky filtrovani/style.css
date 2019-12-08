@@ -37,6 +37,7 @@ header {
     list-style: none;
     text-transform: uppercase;
     text-align: center;
+    font-size: 22px;
     padding: 50px;
     margin: 0;
 }
@@ -53,6 +54,7 @@ header {
 
 .karticka {
     background-color: #f3ebb6;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
     margin: 10px;
     padding: 10px;
     display: flex;

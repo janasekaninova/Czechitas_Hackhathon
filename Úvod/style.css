@@ -37,6 +37,7 @@ header {
     list-style: none;
     text-transform: uppercase;
     text-align: center;
+    font-size: 22px;
     padding: 50px;
     margin: 0;
 }
@@ -55,11 +56,20 @@ h2 {
     font-size: 36px;
     margin-top: 5px;
 }
+
+label {
+    font-size: 22px;
+}
+
 .formular {
-    border: 1px solid black;
     padding: 10px;
     margin: 10px;
-    background-color: ;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f3ebb6;
+    width: 700px;
+    height: 250px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* fotogalerie */
@@ -72,7 +82,7 @@ h2 {
 
 .fotogalerie img {
     filter: grayscale(100%);
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .fotogalerie img:hover {
@@ -94,7 +104,7 @@ footer a {
 }
 
 /*///////////////////////// tablet ////////////////////////////////*/
-@media (min-width: 500px) {
+@media (min-width: 700px) {
     .menu {
         display: flex;
     }
@@ -106,7 +116,7 @@ footer a {
 }
 
 /*///////////////////////// PC ////////////////////////////////*/
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
     .menu {
         padding: 50px 150px;
     }

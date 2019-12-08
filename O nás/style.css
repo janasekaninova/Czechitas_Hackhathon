@@ -37,6 +37,7 @@ header {
     list-style: none;
     text-transform: uppercase;
     text-align: center;
+    font-size: 22px;
     padding: 50px;
     margin: 0;
 }
@@ -57,21 +58,22 @@ header {
 
 .oProjektu {
     flex-basis: 100%;
+    font-size: 22px;
     padding: 20px;
 }
 
 .janina {
-    flex: 0 1 auto;
+    flex: 0 1 40%;
     display: flex;
     flex-direction: column;
-    width: 200px;
+    align-items: center;
 } 
 
 .janca {
-    flex: 0 1 auto;
+    flex: 0 1 40%;
     display: flex;
     flex-direction: column;
-    width: 200px;
+    align-items: center;
 } 
 
 .fotoJanina,
