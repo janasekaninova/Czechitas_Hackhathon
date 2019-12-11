@@ -31,7 +31,6 @@ export default {
 </script>
 
 <style>
-<link rel="stylesheet" href="bootstrap.min.css">
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
