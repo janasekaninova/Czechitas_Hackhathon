@@ -51,7 +51,6 @@ header {
 }
 
 /* vysledky */
-
 .karticka {
     background-color: #f3ebb6;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
@@ -75,7 +74,6 @@ header {
 }
 
 /* paticka */
-
 footer {
     color: white;
     background-color: #280004; 

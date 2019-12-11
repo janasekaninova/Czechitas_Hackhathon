@@ -1,0 +1,45 @@
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import Home from '../views/Home.vue'
+import About from '../views/About.vue'
+import Results from '../views/Results.vue'
+import Dances from '../views/Dances.vue'
+import Gaffs from '../views/Gaffs.vue'
+
+Vue.use(VueRouter)
+
+const routes = [
+  {
+    path: '/',
+    name: 'home',
+    component: Home
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: About
+  },
+  {
+    path: '/results',
+    name: 'results',
+    component: Results
+  },
+  {
+    path: '/dances',
+    name: 'dances',
+    component: Dances
+  },
+  {
+    path: '/gaffs',
+    name: 'gaffs',
+    component: Gaffs
+  }
+]
+
+const router = new VueRouter({
+  mode: 'history',
+  base: process.env.BASE_URL,
+  routes
+})
+
+export default router
