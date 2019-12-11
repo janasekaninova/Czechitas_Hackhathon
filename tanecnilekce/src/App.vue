@@ -3,7 +3,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
     <header>
       <h1 class="titulek">Taneční kurzy a kde je najít</h1>
-      <img class="logo" src="../Images/logo.jpg">
+      <img class="logo" src="@/Images/logo.jpg">
       <p class="perex">Chceš začít tančit, ale nevíš kudy do toho? Pomůžeme ti s prvními krůčky - řekni nám, čemu se chceš věnovat a my ti ukážeme nabídku otevřených kurzů v okolí.</p>
       <section class="listaMenu">
             <ul class="menu">
@@ -40,7 +40,7 @@ body {
 header {
     background-image: 
         linear-gradient(to bottom,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("../Images/mitchell-griest-EKXCGy4Zsbg-unsplash.jpg");
+        url("/Images/mitchell-griest-EKXCGy4Zsbg-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: 100%, cover;
     background-position: center;
