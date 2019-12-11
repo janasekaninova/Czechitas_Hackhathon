@@ -3,8 +3,8 @@
     <!-- vyhledávací formulář-->
     <div class="formular" id="app">
       <h2>Chci najít lekce</h2>
-      <label for="mesto">Město/Místo</label>
-        <select name="mesto" id="mesto">
+      <label for="mesto">Lokalita</label>
+        <select class="selectpicker show-tick" name="mesto" id="mesto" multiple data-selected-text-format="count">
           <option value="">Vyberte městskou část</option>
           <option value="1">Bohunice</option>
           <option value="2">Bosonohy</option>

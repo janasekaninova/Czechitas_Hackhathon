@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    
     <header>
       <h1 class="titulek">Taneční kurzy a kde je najít</h1>
       <img class="logo" src="@/Images/logo.jpg">
@@ -30,6 +31,8 @@ export default {
 </script>
 
 <style>
+<link rel="stylesheet" href="bootstrap.min.css">
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
     padding: 0;
