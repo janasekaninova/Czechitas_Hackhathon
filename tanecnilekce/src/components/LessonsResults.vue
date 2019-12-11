@@ -1,6 +1,6 @@
 <template>
   <div>
-        <div class="karticka">
+    <div class="karticka">
       <a href="http://www.rugcutters.cz/"><img class="logoSkoly" src="@/Images/logo_rugcutters.png" alt="Rug Cutters"></a>
       <div class="detailyNazvy">
         <p>Taneční škola: </p>
@@ -19,16 +19,15 @@
         <button>Více o kurzu</button>
       </div> 
     </div>
-
   </div>
 </template>
 
 <script>
 export default {
-    name: 'lessonsresults',
-    components: {
-        
-    }
+  name: 'lessonsresults',
+  components: {
+      
+  }
 }
 </script>
 

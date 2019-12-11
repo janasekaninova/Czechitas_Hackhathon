@@ -75,7 +75,8 @@
         </div>
       </fieldset>
 
-      <button type="submit" class="Vyhledat">Vyhledat</button>
+      <button type="button">Vyhledat</button>
+
     </div>
 
     <!-- fotogalerie -->
@@ -130,6 +131,15 @@ fieldset {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 }
 
+button {
+  color:#280004;
+  background-color:#ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+
 /* fotogalerie */
 .fotogalerie {
   justify-content: space-between;
@@ -174,7 +184,6 @@ fieldset {
 
   .formular {
   width: 1100px;
-  height: 250px;
-  }
+ }
 }
 </style>

@@ -40,7 +40,7 @@ body {
 header {
     background-image: 
         linear-gradient(to bottom,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url("/Images/mitchell-griest-EKXCGy4Zsbg-unsplash.jpg");
+        url("./Images/mitchell-griest-EKXCGy4Zsbg-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: 100%, cover;
     background-position: center;
@@ -68,7 +68,6 @@ header {
 .menu {
     list-style: none;
     text-transform: uppercase;
-    /* text-align: center; */
     font-size: 22px;
     padding: 50px;
     margin: 0;
