@@ -39,7 +39,7 @@
       <br>
 
       <label for="styl">Styl tance</label>
-        <select v-model="selectedStyle">
+        <select v-model="selectedStyle" name="style" id="style">
           <option value="">Vyberte styl</option>
           <option value="1">Swing</option>
           <option value="2">Latina</option>
@@ -105,11 +105,10 @@ export default {
     'lessonsresults': LessonsResults,
     'ourfooter': OurFooter,
   },
- /*  data: {
+/*   data: {
       selectedStyle: ''
   }, */
   methods: {
-   
   }
 };
 
