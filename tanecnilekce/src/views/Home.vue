@@ -39,7 +39,7 @@
       <br>
 
       <label for="styl">Styl tance</label>
-        <select v-model="selectedStyle" name="style" id="style">
+        <select v-model="selectedStyle">
           <option value="">Vyberte styl</option>
           <option value="1">Swing</option>
           <option value="2">Latina</option>
@@ -76,16 +76,10 @@
       </fieldset>
 
       <button type="button">Vyhledat</button>
-
     </div>
 
-   <!-- výsledky -->
     <lessonsresults />
 
-
-
-
-    <!-- fotogalerie -->
     <section class="fotogalerie">
       <a href="https://www.danza.cz/"><img src="@/Images/logo_danza.png" alt="logo TŠ Danza"></a>
       <a href="https://tsdynamic.cz/"><img src="@/Images/logo_dynamic.png" alt="logo TŠ Dynamic"></a>
@@ -111,10 +105,12 @@ export default {
     'lessonsresults': LessonsResults,
     'ourfooter': OurFooter,
   },
-  metods: {
- 
+ /*  data: {
+      selectedStyle: ''
+  }, */
+  methods: {
+   
   }
-
 };
 
 </script>

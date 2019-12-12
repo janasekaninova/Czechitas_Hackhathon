@@ -28,19 +28,25 @@ export default {
   components: {
       
   },
-/*   mounted() {
+  data() {
+    return {
+      lekce: []
+    }
+  },
+  mounted() {
     fetch('/API/lekce.json')
     .then(response => response.json())
     .then(data => {
-      this.lekce = data.results;
+      this.lekce = data;
     })
     .catch(error => {
       console.log(error);
     })    
   },
+/*   props: [ 'selectedStyle' ], */
   computed () {
     return lekce.filter( kurz => kurz.danceFamily === selectedStyle);
-  } */
+  }
 }
 </script>
 

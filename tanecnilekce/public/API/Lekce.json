@@ -1,5 +1,5 @@
  [{
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -11,7 +11,7 @@
     },
 
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -23,7 +23,7 @@
     },
 
     {
-        "danceFamily": "Latinsko-americké tance",
+        "danceFamily": "2",
         "style": "Latino pro ženy",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -34,7 +34,7 @@
         "link": "https://www.danza.cz/tanecni-kurzy"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -45,7 +45,7 @@
         "link": "https://tsdynamic.cz/kurzy/zakladni-tanecni-pro-dospele-a-vysokoskolaky/"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -56,7 +56,7 @@
         "link": "https://tsdynamic.cz/kurzy/pokracovaci-tanecni-pro-vysokoskolaky-a-dospele/"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -68,7 +68,7 @@
     },
    
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -79,7 +79,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -90,7 +90,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -101,7 +101,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -112,7 +112,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -123,7 +123,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -134,7 +134,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -145,7 +145,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -156,7 +156,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -167,7 +167,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -178,7 +178,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Lehce pokročilí",
         "partner": "Ano",
@@ -189,7 +189,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Lehce pokročilí",
         "partner": "Ano",
@@ -200,7 +200,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Lehce pokročilí",
         "partner": "Ano",
@@ -211,7 +211,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Lehce pokročilí",
         "partner": "Ano",
@@ -222,7 +222,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Lehce pokročilí",
         "partner": "Ano",
@@ -233,7 +233,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -244,7 +244,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/cedrove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -255,7 +255,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/cedrove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -266,7 +266,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/cedrove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -277,7 +277,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/palisandrove-tanecni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -288,7 +288,7 @@
         "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/mahagonove-tanecni"
     },
     {
-        "danceFamily": "Swing",
+        "danceFamily": "1",
         "style": "Solo swing",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -321,7 +321,7 @@
         "link": "http://www.rugcutters.cz/kursy/kurs/xfepr/back/kursy/aktualni"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -332,7 +332,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -343,7 +343,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -354,7 +354,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -365,7 +365,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -376,7 +376,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -387,7 +387,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -398,7 +398,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -409,7 +409,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -420,7 +420,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -431,7 +431,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html"
     },
     {
-        "danceFamily": "Standardní tance",
+        "danceFamily": "3",
         "style": "Taneční kurzy- singles",
         "level":"Začátečnící",
         "partner": "Ne",
@@ -442,7 +442,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/441-tanecni-kurzy-singles.html"
     },
     {
-        "danceFamily": "Swing",
+        "danceFamily": "1",
         "style": "Boogie-Jive",
         "level":"Začátečnící",
         "partner": "Ano",
@@ -453,7 +453,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-specialni-kurzy/222-boogie-a-swing.html"
     },
     {
-        "danceFamily": "Latinsko-americké tance",
+        "danceFamily": "2",
         "style": "Ladies latino",
         "level":"Začátečnící",
         "partner": "Ne",
@@ -464,7 +464,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-specialni-kurzy/248-latino-pro-zeny.html"
     },
     {
-        "danceFamily": "Latinsko-americké tance",
+        "danceFamily": "2",
         "style": "Speciál latino",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -475,7 +475,7 @@
         "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-specialni-kurzy/92-special-latina.html"
     },
     {
-        "danceFamily": "Latinsko-americké tance",
+        "danceFamily": "2",
         "style": "WEST COAST SWING I.",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -486,7 +486,7 @@
         "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
     },
     {
-        "danceFamily": "Latinsko-americké tance",
+        "danceFamily": "2",
         "style": "WEST COAST SWING II.",
         "level":"Pokročilí",
         "partner": "",
@@ -497,7 +497,7 @@
         "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
     },
     {
-        "danceFamily": "Latinsko-americké tance",
+        "danceFamily": "2",
         "style": "WEST COAST SWING III.",
         "level":"Pokročilí",
         "partner": "",
@@ -508,7 +508,7 @@
         "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
     },
     {
-        "danceFamily": "Latinsko-americké tance",
+        "danceFamily": "2",
         "style": "Salsa",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -519,7 +519,7 @@
         "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
     },
     {
-        "danceFamily": "Latinsko-americké tance",
+        "danceFamily": "2",
         "style": "Zouk I.",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -530,7 +530,7 @@
         "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
     },
     {
-        "danceFamily": "Latinsko-americké tance",
+        "danceFamily": "2",
         "style": "Zouk I.",
         "level":"Lehce pokročilí",
         "partner": "N",
@@ -541,7 +541,7 @@
         "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
     },
     {
-        "danceFamily": "Swing",
+        "danceFamily": "1",
         "style": "Lindy Hop 1",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -552,7 +552,7 @@
         "link": "https://www.swingwings.cz/rozvrh/"
     },
     {
-        "danceFamily": "Swing",
+        "danceFamily": "1",
         "style": "Lindy Hop 1",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -563,7 +563,7 @@
         "link": "https://www.swingwings.cz/rozvrh/"
     },
     {
-        "danceFamily": "Swing",
+        "danceFamily": "1",
         "style": "Lindy Hop 3 Charleston",
         "level":"Pokročilí",
         "partner": "Ne",
@@ -574,7 +574,7 @@
         "link": "https://www.swingwings.cz/rozvrh/"
     },
     {
-        "danceFamily": "Swing",
+        "danceFamily": "1",
         "style": "Blues/ Slow Dancing",
         "level":"Pokročilí",
         "partner": "Ne",
