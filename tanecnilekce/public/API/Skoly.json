@@ -8,10 +8,45 @@
 },
 
 {
-    "name": "",
-    "address": "",
+    "name": "Taneční škola Dynamic",
+    "address": "Bašty 413/2, 602 00 Brno-střed",
+    "tel": "734 369 982",
+    "email": "kancelar@tsdynamic.cz"
+},
+
+{
+    "name": "Taneční škola Eso",
+    "address": "Jana Babáka, 602 00 Brno-Královo Pole",
+    "tel": "776 746 372",
+    "email": "jindrich.vlacil@tanecniskolaeso.cz"
+},
+
+{
+    "name": "RugCutters",
+    "address": "Černopolní 791/8, 613 00 Brno-sever",
+    "tel": "776 037 709",
+    "email": "pavel@fireballs.cz"
+},
+
+{
+    "name": "Starlet Brno",
+    "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
+    "tel": "732 754 293",
+    "email": "starlet@starlet-brno.cz"
+},
+
+{
+    "name": "Taneční studio Stolárna",
+    "address": "Olomoucká 14, 618 00 Brno-Černovice",
+    "tel": "702 155 707",
+    "email": "tanecnistudio@gmail.com"
+},
+
+{
+    "name": "Swing Wings",
+    "address": "Areál Křenová 19, Brno, 602 00",
     "tel": "",
-    "email": ""
+    "email": "pilot@swingwings.cz"
 }
 
 

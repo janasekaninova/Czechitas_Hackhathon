@@ -12,6 +12,51 @@
     },
 
     {
+        "danceFamily": "Standardní tance",
+        "style": "Taneční pro dospělé",
+        "level":"Pokračovací lekce",
+        "partner": "Ano",
+        "district": "Černé pole",
+        "duration": "2.2.2020- 5.4.2020",
+        "day": "Neděle",
+        "time": "20:15 – 22:00",
+        "link": "https://www.danza.cz/tanecni-kurzy"
+    },
+
+    {
+        "danceFamily": "Latinsko-americké tance",
+        "style": "Latino pro ženy",
+        "level":"Začátečníci",
+        "partner": "Ne",
+        "district": "Černé pole",
+        "duration": "Pravidelné",
+        "day": "Úterý",
+        "time": "18:30 - 19:30",
+        "link": "https://www.danza.cz/tanecni-kurzy"
+    },
+    {
+        "danceFamily": "Standardní tance",
+        "style": "Taneční pro dospělé",
+        "level":"Začátečníci",
+        "partner": "Ano",
+        "district": "Brno střed",
+        "duration": "Pravidelné",
+        "day": "Čtvrtek",
+        "time": "19:00 - 21:00",
+        "link": "https://tsdynamic.cz/kurzy/zakladni-tanecni-pro-dospele-a-vysokoskolaky/"
+    },
+    {
+        "danceFamily": "Standardní tance",
+        "style": "Taneční pro dospělé",
+        "level":"Pokračovací lekce",
+        "partner": "Ano",
+        "district": "Brno střed",
+        "duration": "Pravidelné",
+        "day": "",
+        "time": "",
+        "link": "https://tsdynamic.cz/kurzy/pokracovaci-tanecni-pro-vysokoskolaky-a-dospele/"
+    },
+    {
         "danceFamily": "",
         "style": "",
         "level":"",
@@ -22,5 +67,83 @@
         "time": "",
         "link": ""
     },
+    {
+        "danceFamily": "",
+        "style": "",
+        "level":"",
+        "partner": "",
+        "district": "",
+        "duration": "",
+        "day": "",
+        "time": "",
+        "link": ""
+    },
+    {
+        "danceFamily": "",
+        "style": "",
+        "level":"",
+        "partner": "",
+        "district": "",
+        "duration": "",
+        "day": "",
+        "time": "",
+        "link": ""
+    },
+    {
+        "danceFamily": "",
+        "style": "",
+        "level":"",
+        "partner": "",
+        "district": "",
+        "duration": "",
+        "day": "",
+        "time": "",
+        "link": ""
+    },
+    {
+        "danceFamily": "",
+        "style": "",
+        "level":"",
+        "partner": "",
+        "district": "",
+        "duration": "",
+        "day": "",
+        "time": "",
+        "link": ""
+    },
+    {
+        "danceFamily": "",
+        "style": "",
+        "level":"",
+        "partner": "",
+        "district": "",
+        "duration": "",
+        "day": "",
+        "time": "",
+        "link": ""
+    },
+    {
+        "danceFamily": "",
+        "style": "",
+        "level":"",
+        "partner": "",
+        "district": "",
+        "duration": "",
+        "day": "",
+        "time": "",
+        "link": ""
+    },
+    {
+        "danceFamily": "",
+        "style": "",
+        "level":"",
+        "partner": "",
+        "district": "",
+        "duration": "",
+        "day": "",
+        "time": "",
+        "link": ""
+    },
+
 
 ]
