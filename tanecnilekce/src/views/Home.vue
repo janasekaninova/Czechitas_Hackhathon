@@ -1,9 +1,9 @@
 <template>
-  <div class="home">
+<div class="home">
     <!-- vyhledávací formulář-->
     <div class="formular" id="app">
       <h2>Chci najít lekce</h2>
-      <label for="mesto">Lokalita</label>
+       <label for="mesto">Lokalita</label>
         <select name="mesto" id="mesto">
           <option value="">Vyberte městskou část</option>
           <option value="1">Bohunice</option>
@@ -97,12 +97,15 @@
 
 <script>
 import OurFooter from '../components/OurFooter.vue';
+
 export default {
   name: 'home',
   components: {
-    'ourfooter': OurFooter
-  }
-}
+    'ourfooter': OurFooter,
+  },
+
+};
+
 </script>
 
 <style>

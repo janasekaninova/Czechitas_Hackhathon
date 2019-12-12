@@ -1,0 +1,26 @@
+"lessons": [
+    {
+        "danceFamily": "Standardní tance",
+        "style": "Taneční pro dospělé",
+        "level":"Začátečníci",
+        "partner": "Ano",
+        "district": "Černé pole",
+        "duration": "2.2.2020- 5.4.2020",
+        "day": "Neděle",
+        "time": "18:15 – 20:00",
+        "link": "https://www.danza.cz/tanecni-kurzy"
+    },
+
+    {
+        "danceFamily": "",
+        "style": "",
+        "level":"",
+        "partner": "",
+        "district": "",
+        "duration": "",
+        "day": "",
+        "time": "",
+        "link": ""
+    },
+
+]
