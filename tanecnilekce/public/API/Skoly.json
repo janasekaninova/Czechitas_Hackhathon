@@ -1,6 +1,5 @@
 
-"danceSchool": [
-    {
+{
     "name": "DANZA",
     "address": "Třída gen. Píky 4, 613 00 Brno - Černá Pole",
     "tel": "736 631 421",
@@ -48,6 +47,3 @@
     "tel": "",
     "email": "pilot@swingwings.cz"
 }
-
-
-]
