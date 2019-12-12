@@ -8,8 +8,7 @@
       <p class="perex">Chceš začít tančit, ale nevíš kudy do toho? Pomůžeme ti s prvními krůčky - řekni nám, čemu se chceš věnovat a my ti ukážeme nabídku otevřených kurzů v okolí.</p>
       <section class="listaMenu">
             <ul class="menu">
-              <router-link to="/">Úvod</router-link>
-              <router-link to="/results">Výsledky</router-link>
+              <router-link to="/">Vyhledávání</router-link>
               <router-link to="/dances">Tance</router-link>
               <router-link to="/gaffs">Tančírny</router-link>
               <router-link to="/about">O nás</router-link>

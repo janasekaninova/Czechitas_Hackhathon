@@ -26,7 +26,18 @@ export default {
   name:'gaffsresults',
   components: {
 
-  }
+  },
+  mounted() {
+      fetch('/API/tancirny.json')
+      .then(response => response.json())
+      .then(data => {
+          this.osoby = data.results;
+          this.loading = false;
+      })
+      .catch(error => {
+          console.log(error);
+      })    
+    }
 }
 </script>
 

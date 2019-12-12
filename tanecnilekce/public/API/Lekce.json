@@ -1,4 +1,4 @@
- {
+ [{
         "danceFamily": "Standardní tance",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
@@ -583,4 +583,5 @@
         "day": "Čtvrtek",
         "time": "20:00 - 21:10",
         "link": "https://www.swingwings.cz/rozvrh/"
-    },
+    }
+ ]

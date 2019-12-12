@@ -4,42 +4,42 @@
     <div class="formular" id="app">
       <h2>Chci najít lekce</h2>
        <label for="mesto">Lokalita</label>
-        <select name="mesto" id="mesto">
+        <select name="mesto" id="mesto" >
           <option value="">Vyberte městskou část</option>
           <option value="1">Bohunice</option>
           <option value="2">Bosonohy</option>
           <option value="3">Bystrc</option>
-          <option value="3">Černovice</option>
-          <option value="3">Chrlice</option>
-          <option value="3">Ivanovice</option>
-          <option value="3">Jehnice</option>
-          <option value="3">Jih</option>
-          <option value="3">Jundrov</option>
-          <option value="3">Kníničky</option>
-          <option value="3">Kohoutovice</option>
-          <option value="3">Komín</option>
-          <option value="3">Královo Pole</option>
-          <option value="3">Líšeň</option>
-          <option value="3">Maloměřce a Obřany</option>
-          <option value="3">Medlánky</option>
-          <option value="3">Nový Lískovec</option>
-          <option value="3">Ořešín</option>
-          <option value="3">Řečkovice a Mokrá Hora</option>
-          <option value="3">Sever</option>
-          <option value="3">Slatina</option>
-          <option value="3">Starý Lískovec</option>
-          <option value="3">Střed</option>
-          <option value="3">Tuřany</option>
-          <option value="3">Útěchov</option>
-          <option value="3">Vinohrady</option>
-          <option value="3">Žabovřesky</option>
-          <option value="3">Žebětín</option>
-          <option value="3">Židenice</option>
+          <option value="4">Černovice</option>
+          <option value="5">Chrlice</option>
+          <option value="6">Ivanovice</option>
+          <option value="7">Jehnice</option>
+          <option value="8">Jih</option>
+          <option value="9">Jundrov</option>
+          <option value="10">Kníničky</option>
+          <option value="11">Kohoutovice</option>
+          <option value="12">Komín</option>
+          <option value="13">Královo Pole</option>
+          <option value="14">Líšeň</option>
+          <option value="15">Maloměřce a Obřany</option>
+          <option value="16">Medlánky</option>
+          <option value="17">Nový Lískovec</option>
+          <option value="18">Ořešín</option>
+          <option value="19">Řečkovice a Mokrá Hora</option>
+          <option value="20">Sever</option>
+          <option value="21">Slatina</option>
+          <option value="22">Starý Lískovec</option>
+          <option value="23">Střed</option>
+          <option value="24">Tuřany</option>
+          <option value="25">Útěchov</option>
+          <option value="26">Vinohrady</option>
+          <option value="27">Žabovřesky</option>
+          <option value="28">Žebětín</option>
+          <option value="29">Židenice</option>
         </select>
       <br>
 
       <label for="styl">Styl tance</label>
-        <select name="styl" id="styl">
+        <select v-model="selectedStyle" name="style" id="style">
           <option value="">Vyberte styl</option>
           <option value="1">Swing</option>
           <option value="2">Latina</option>
@@ -79,6 +79,12 @@
 
     </div>
 
+   <!-- výsledky -->
+    <lessonsresults />
+
+
+
+
     <!-- fotogalerie -->
     <section class="fotogalerie">
       <a href="https://www.danza.cz/"><img src="@/Images/logo_danza.png" alt="logo TŠ Danza"></a>
@@ -96,13 +102,18 @@
 </template>
 
 <script>
+import LessonsResults from '../components/LessonsResults.vue';
 import OurFooter from '../components/OurFooter.vue';
 
 export default {
   name: 'home',
   components: {
+    'lessonsresults': LessonsResults,
     'ourfooter': OurFooter,
   },
+  metods: {
+ 
+  }
 
 };
 

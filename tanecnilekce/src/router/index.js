@@ -2,7 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
-import Results from '../views/Results.vue'
 import Dances from '../views/Dances.vue'
 import Gaffs from '../views/Gaffs.vue'
 
@@ -18,11 +17,6 @@ const routes = [
     path: '/about',
     name: 'about',
     component: About
-  },
-  {
-    path: '/results',
-    name: 'results',
-    component: Results
   },
   {
     path: '/dances',

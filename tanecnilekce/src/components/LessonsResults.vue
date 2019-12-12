@@ -11,11 +11,11 @@
       </div>
 
       <div class="detailyVysledky">
-        <p>Vybraná tš</p>
-        <p>její adresa</p>
-        <p>její telefon</p>
-        <p>čeho lekce</p>
-        <p>termín</p>
+<!--         <p>{{ danceSchool.name }}</p>
+        <p>{{ danceSchool.address }}</p>
+        <p>{{ danceSchool.tel }}</p>
+        <p>{{ lekce.danceFamily }} {{ lekce.style }}</p>
+        <p>{{ lekce.daration }} {{ lekce.day }} {{ lekce.time }}</p> -->
         <button>Více o kurzu</button>
       </div> 
     </div>
@@ -27,24 +27,44 @@ export default {
   name: 'lessonsresults',
   components: {
       
-  }
+  },
+/*   mounted() {
+    fetch('/API/lekce.json')
+    .then(response => response.json())
+    .then(data => {
+      this.lekce = data.results;
+    })
+    .catch(error => {
+      console.log(error);
+    })    
+  },
+  computed () {
+    return lekce.filter( kurz => kurz.danceFamily === selectedStyle);
+  } */
 }
 </script>
+
+
+
+
+
 
 <style>
 /* vysledky */
 .karticka {
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
   background-color: #f3ebb6;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-  margin: 10px;
-  padding: 10px;
   display: flex;
-  flex-wrap: wrap;     
+  flex-wrap: wrap;  
 }
 
 .karticka a {
-  flex-basis: 100%;
-  margin: 10px 10px 0 0;
+  flex-basis: auto;
+  margin: 16px 20px 0 16px;
 }
 
 .karticka img {
@@ -53,5 +73,13 @@ export default {
 
 .detailyNazvy {
   padding-right: 20px;
+}
+
+/*///////////////////////// PC ////////////////////////////////*/
+@media (min-width: 1100px) {
+
+  .karticka {
+  width: 1100px;
+ }
 }
 </style>
