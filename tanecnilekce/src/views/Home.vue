@@ -5,9 +5,9 @@
       <h2>Chci najít lekce</h2>
        <label for="mesto">Lokalita</label>
         <select v-model="selectedDistrict">
-          <option v-for="(place, id) in districts"
+          <option v-for="place in districts"
                   v-bind:id="place.id"
-                  v-bind:key="id">
+                  v-bind:key="place.id">
           {{ place.name }}
           </option>
         </select>
@@ -24,35 +24,35 @@
 
       <fieldset>
         <legend >Jaký den mi vyhovuje?</legend>
-        <br>
-        <div class="dny">
-          <input 
-          type="checkbox" 
-          id="pondeli" 
-          name="pondeli"
-          v-on:change="vyberDen($event)"
-          v-bind:checked="vybrano"
-          >
-          <label for="scales">Pondělí</label>
-          <br>
-          <input type="checkbox" id="utery" name="utery">
-          <label for="scales">Úterý</label> 
-          <br>
-          <input type="checkbox" id="streda" name="streda">
-          <label for="scales">Středa</label>
-          <br>
-          <input type="checkbox" id="ctvrtek" name="ctvrtek">
-          <label for="scales">Čtvrtek</label>
-          <br>
-          <input type="checkbox" id="patek" name="patek">
-          <label for="scales">Pátek</label>
-          <br>                
-          <input type="checkbox" id="sobota" name="sobota">
-          <label for="scales">Sobota</label>
-          <br>
-          <input type="checkbox" id="nedele" name="nedele">
-          <label for="scales">Neděle</label>
-          <br>
+        <div class="checkboxArea">
+          <div class="days">
+            <input type="checkbox" id="pondeli" name="pondeli">
+            <label for="scales">Pondělí</label>
+          </div>
+          <div class="days">
+            <input type="checkbox" id="utery" name="utery">
+            <label for="scales">Úterý</label> 
+          </div>
+          <div class="days">
+            <input type="checkbox" id="streda" name="streda">
+            <label for="scales">Středa</label>
+          </div>
+          <div class="days">
+            <input type="checkbox" id="ctvrtek" name="ctvrtek">
+            <label for="scales">Čtvrtek</label>
+          </div>
+          <div class="days">
+            <input type="checkbox" id="patek" name="patek">
+            <label for="scales">Pátek</label>
+          </div>
+          <div class="days">
+            <input type="checkbox" id="sobota" name="sobota">
+            <label for="scales">Sobota</label>
+          </div>
+          <div class="days">
+            <input type="checkbox" id="nedele" name="nedele">
+            <label for="scales">Neděle</label>
+          </div>
         </div>
       </fieldset>
 
@@ -139,6 +139,7 @@ label,
 legend {
   font-size: 22px;
   margin: 5px;
+  padding: 5px;
 }
 
 fieldset {
@@ -192,10 +193,10 @@ button {
     flex: 0 0 33%;
   }
 
-  .dny {
+  .checkboxArea {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 }
 
