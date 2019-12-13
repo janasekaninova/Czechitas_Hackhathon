@@ -1,11 +1,11 @@
-{
+[{
     "danceFamily": "Standardní tance",
     "danceSchool": "Taneční škola Eso",
     "address": "Malý sál, Cejl 76",
     "day": "Úterý",
     "time": "20:30 - 22:00",
     "partner": "Ne",
-    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tanecni-klub-eso-z-s",
+    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tanecni-klub-eso-z-s"
 },
 {
     "danceFamily": "Latinsko-americké tance",
@@ -14,7 +14,7 @@
     "day": "Čtvrtek",
     "time": "20:30 - 22:00",
     "partner": "Ne",
-    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tanecni-klub-eso-z-s",
+    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tanecni-klub-eso-z-s"
 },
 {
     "danceFamily": "Latinsko-americké tance",
@@ -23,7 +23,7 @@
     "day": "Sobota",
     "time": "18:00 - 20:00",
     "partner": "Ne",
-    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tanecni-klub-eso-z-s",
+    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tanecni-klub-eso-z-s"
 },
 {
     "danceFamily": "Standardní tance",
@@ -32,7 +32,7 @@
     "day": "Neděle",
     "time": "20:30 - 22:00",
     "partner": "Ne",
-    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tanecni-klub-eso-hobby",
+    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tanecni-klub-eso-hobby"
 },
 {
     "danceFamily": "Standardní tance",
@@ -41,7 +41,7 @@
     "day": "Pátek",
     "time": "20:00 - 22:00",
     "partner": "Ne",
-    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tancirna-eso-original",
+    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tancirna-eso-original"
 },
 {
     "danceFamily": "Standardní tance",
@@ -50,7 +50,7 @@
     "day": "Sobota",
     "time": "20:00 - 22:00",
     "partner": "Ne",
-    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tancirna-eso-original",
+    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tancirna-eso-original"
 },
 {
     "danceFamily": "Standardní tance",
@@ -59,7 +59,7 @@
     "day": "Pondělí",
     "time": "20:00 - 22:00",
     "partner": "Ne",
-    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tancirna-eso-original",
+    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tancirna-eso-original"
 },
 {
     "danceFamily": "Standardní tance",
@@ -68,7 +68,7 @@
     "day": "Středa",
     "time": "20:00 - 22:00",
     "partner": "Ne",
-    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tancirna-eso-original",
+    "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tancirna-eso-original"
 },
 {
     "danceFamily": "Swing",
@@ -77,7 +77,7 @@
     "day": "Sobota",
     "time": "10:00 - 12:30",
     "partner": "Ne",
-    "link": "http://www.rugcutters.cz/kursy/kurs/tbtjw/back/kursy/aktualni",
+    "link": "http://www.rugcutters.cz/kursy/kurs/tbtjw/back/kursy/aktualni"
 },
 {
     "danceFamily": "Standardní tance",
@@ -86,7 +86,7 @@
     "day": "Pátek",
     "time": "20:00-22:30",
     "partner": "Ne",
-    "link": "https://www.starlet-brno.cz/akce-starletu/tancirny.html",
+    "link": "https://www.starlet-brno.cz/akce-starletu/tancirny.html"
 },
 {
     "danceFamily": "Standardní tance",
@@ -95,7 +95,7 @@
     "day": "Sobota",
     "time": "19:00-21:30",
     "partner": "Ne",
-    "link": "https://www.starlet-brno.cz/akce-starletu/tancirny.html",
+    "link": "https://www.starlet-brno.cz/akce-starletu/tancirny.html"
 },
 {
     "danceFamily": "Latinsko-americké tance",
@@ -104,7 +104,7 @@
     "day": "Pátek",
     "time": "20:00-23:30",
     "partner": "Ne",
-    "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2",
+    "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
 },
 {
     "danceFamily": "Latinsko-americké tance",
@@ -113,7 +113,7 @@
     "day": "Neděle",
     "time": "21:15 - 23:00",
     "partner": "Ne",
-    "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2",
+    "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
 },
 {
     "danceFamily": "Swing",
@@ -122,7 +122,7 @@
     "day": "Neděle 5.1.2020",
     "time": "19:30 – 23:40",
     "partner": "Ne",
-    "link": "https://www.swingwings.cz/akce/tancirny/",
+    "link": "https://www.swingwings.cz/akce/tancirny/"
 },
 {
     "danceFamily": "Swing",
@@ -131,7 +131,7 @@
     "day": "Neděle 19.1.2020",
     "time": "19:30 – 23:40",
     "partner": "Ne",
-    "link": "https://www.swingwings.cz/akce/tancirny/",
+    "link": "https://www.swingwings.cz/akce/tancirny/"
 },
 {
     "danceFamily": "Swing",
@@ -140,6 +140,7 @@
     "day": "Neděle 26.1.2020",
     "time": "19:30 – 23:40",
     "partner": "Ne",
-    "link": "https://www.swingwings.cz/akce/tancirny/",
-},
+    "link": "https://www.swingwings.cz/akce/tancirny/"
+}
+]
 

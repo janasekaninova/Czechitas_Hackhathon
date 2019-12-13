@@ -51,7 +51,13 @@
         <legend >Jaký den mi vyhovuje?</legend>
         <br>
         <div class="dny">
-          <input type="checkbox" id="pondeli" name="pondeli">
+          <input 
+          type="checkbox" 
+          id="pondeli" 
+          name="pondeli"
+          v-on:change="vyberDen($event)"
+          v-bind:checked="vybrano"
+          >
           <label for="scales">Pondělí</label>
           <br>
           <input type="checkbox" id="utery" name="utery">
@@ -105,6 +111,7 @@ export default {
     'lessonsresults': LessonsResults,
     'ourfooter': OurFooter,
   },
+    vyberDen(event) {
 /*   data: {
       selectedStyle: ''
   }, */
