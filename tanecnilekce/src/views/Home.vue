@@ -4,37 +4,12 @@
     <div class="formular" id="app">
       <h2>Chci najít lekce</h2>
        <label for="mesto">Lokalita</label>
-        <select name="mesto" id="mesto" >
-          <option value="">Vyberte městskou část</option>
-          <option value="1">Bohunice</option>
-          <option value="2">Bosonohy</option>
-          <option value="3">Bystrc</option>
-          <option value="4">Černovice</option>
-          <option value="5">Chrlice</option>
-          <option value="6">Ivanovice</option>
-          <option value="7">Jehnice</option>
-          <option value="8">Jih</option>
-          <option value="9">Jundrov</option>
-          <option value="10">Kníničky</option>
-          <option value="11">Kohoutovice</option>
-          <option value="12">Komín</option>
-          <option value="13">Královo Pole</option>
-          <option value="14">Líšeň</option>
-          <option value="15">Maloměřce a Obřany</option>
-          <option value="16">Medlánky</option>
-          <option value="17">Nový Lískovec</option>
-          <option value="18">Ořešín</option>
-          <option value="19">Řečkovice a Mokrá Hora</option>
-          <option value="20">Sever</option>
-          <option value="21">Slatina</option>
-          <option value="22">Starý Lískovec</option>
-          <option value="23">Střed</option>
-          <option value="24">Tuřany</option>
-          <option value="25">Útěchov</option>
-          <option value="26">Vinohrady</option>
-          <option value="27">Žabovřesky</option>
-          <option value="28">Žebětín</option>
-          <option value="29">Židenice</option>
+        <select v-model="selectedDistrict">
+          <option v-for="(place, id) in districts"
+                  v-bind:id="place.id"
+                  v-bind:key="id">
+          {{ place.name }}
+          </option>
         </select>
       <br>
 
@@ -105,9 +80,42 @@ export default {
     'lessonsresults': LessonsResults,
     'ourfooter': OurFooter,
   },
-/*   data: {
-      selectedStyle: ''
-  }, */
+  data() {
+    return {
+      selectedDistrict: '',
+      districts: [
+      {name: 'Bohunice', id: 1},
+      {name:'Bosonohy', id: 2} ,
+      {name:'Bystrc', id: 3},
+      {name:'Černovice', id: 4} ,
+      {name:'Chrlice', id: 5},
+      {name:'Ivanovice', id: 6},
+      {name:'Jehnice', id: 7},
+      {name:'Brno - Jih', id: 8},
+      {name:'Jundrov', id: 9},
+      {name:'Kníničky', id: 10},
+      {name:'Kohoutovice', id: 11},
+      {name:'Komín', id: 12},
+      {name:'Královo Pole', id: 13},
+      {name:'Líšeň', id: 14},
+      {name:'Maloměřice a Obřany', id: 15}, 
+      {name:'Medlánky', id: 16},
+      {name:'Nový Lískovec', id: 17},
+      {name:'Ořešín', id: 18},
+      {name:'Řečkovice a Mokrá Hora', id: 19},
+      {name:'Brno - Sever', id: 20},
+      {name:'Slatina', id: 21},
+      {name:'Starý Lískovec', id: 22},
+      {name:'Brno - Střed', id: 23},
+      {name:'Tuřany', id: 24},
+      {name:'Útěchov', id: 25},
+      {name:'Vinohrady', id: 26},
+      {name:'Žabovřesky', id: 27},
+      {name:'Žebětín', id: 28},
+      {name:'Židenice',id: 29}
+      ]
+    } 
+  },
   methods: {
   }
 };
