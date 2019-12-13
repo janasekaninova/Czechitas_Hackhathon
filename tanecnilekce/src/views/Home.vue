@@ -5,20 +5,22 @@
       <h2>Chci najít lekce</h2>
        <label for="mesto">Lokalita</label>
         <select v-model="selectedDistrict">
-          <option v-for="(place, id) in districts"
+          <option v-for="place in districts"
                   v-bind:id="place.id"
-                  v-bind:key="id">
+                  v-bind:key="place.id">
           {{ place.name }}
           </option>
         </select>
       <br>
 
       <label for="styl">Styl tance</label>
-        <select v-model="selectedStyle" name="style" id="style">
-          <option value="">Vyberte styl</option>
-          <option value="1">Swing</option>
-          <option value="2">Latina</option>
-          <option value="3">Standard</option>
+      <!-- <input placeholder="Enter your username"> -->
+        <select v-model="selectedStyle">
+          <option v-for="dance in style"
+                  v-bind:id="dance.id"
+                  v-bind:key="dance.id">
+                  {{dance.name}}
+          </option>
         </select>
       <br>
 
@@ -119,6 +121,13 @@ export default {
       {name:'Žabovřesky', id: 27},
       {name:'Žebětín', id: 28},
       {name:'Židenice',id: 29}
+      ],
+
+      selectedStyle: '',
+      style: [
+        {name: 'Standartní', id: 1},
+        {name: 'Latinsko-americké', id: 2},
+        {name: 'Swing', id: 3}
       ]
     } 
   },
