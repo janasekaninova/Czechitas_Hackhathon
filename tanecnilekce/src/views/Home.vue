@@ -96,11 +96,19 @@ export default {
         {name: 'Standartní', id: 1},
         {name: 'Latinsko-americké', id: 2},
         {name: 'Swing', id: 3}
-      ]
-    } 
+      ],
+
+      filters: {
+        checkedDays:[],
+        selectedDistrict: '',
+        selectedStyle: ''
+      }
+    },
   },
+
   methods: {
-  }
+  },
+ 
 };
 
 </script>
