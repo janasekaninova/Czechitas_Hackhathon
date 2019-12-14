@@ -1,6 +1,7 @@
  [{     
-        "danceSchool": 1,
+        "danceSchool": "DANZA",
         "danceFamily": 3,
+        "address": "Třída gen. Píky 4, 613 00 Brno - Černá Pole",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -8,12 +9,15 @@
         "duration": "2.2.2020- 5.4.2020",
         "day": "sunday",
         "time": "18:15 – 20:00",
-        "link": "https://www.danza.cz/tanecni-kurzy"
+        "link": "https://www.danza.cz/tanecni-kurzy",
+        "tel": "736 631 421",
+        "email": "info@danza.cz"
     },
 
     {
-        "danceSchool": 1,
+        "danceSchool": "DANZA",
         "danceFamily": 3,
+        "address": "Třída gen. Píky 4, 613 00 Brno - Černá Pole",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -21,12 +25,15 @@
         "duration": "2.2.2020- 5.4.2020",
         "day": "sunday",
         "time": "20:15 – 22:00",
-        "link": "https://www.danza.cz/tanecni-kurzy"
+        "link": "https://www.danza.cz/tanecni-kurzy",
+        "tel": "736 631 421",
+        "email": "info@danza.cz"
     },
 
     {
-        "danceSchool": 1,
+        "danceSchool": "DANZA",
         "danceFamily": 2,
+        "address": "Třída gen. Píky 4, 613 00 Brno - Černá Pole",
         "style": "Latino pro ženy",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -34,11 +41,14 @@
         "duration": "Pravidelné",
         "day": "tuesday",
         "time": "18:30 - 19:30",
-        "link": "https://www.danza.cz/tanecni-kurzy"
+        "link": "https://www.danza.cz/tanecni-kurzy",
+        "tel": "736 631 421",
+        "email": "info@danza.cz"
     },
     {
-        "danceSchool": 2,
+        "danceSchool": "Taneční škola Dynamic",
         "danceFamily": 3,
+        "address": "Bašty 413/2, 602 00 Brno-střed",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -46,11 +56,14 @@
         "duration": "Pravidelné",
         "day": "thursday",
         "time": "19:00 - 21:00",
-        "link": "https://tsdynamic.cz/kurzy/zakladni-tanecni-pro-dospele-a-vysokoskolaky/"
+        "link": "https://tsdynamic.cz/kurzy/zakladni-tanecni-pro-dospele-a-vysokoskolaky/",
+        "tel": "734 369 982",
+        "email": "kancelar@tsdynamic.cz"
     },
     {
-        "danceSchool": 2,
+        "danceSchool": "Taneční škola Dynamic",
         "danceFamily": 3,
+        "address": "Bašty 413/2, 602 00 Brno-střed",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -58,11 +71,14 @@
         "duration": "Pravidelné",
         "day": "",
         "time": "",
-        "link": "https://tsdynamic.cz/kurzy/pokracovaci-tanecni-pro-vysokoskolaky-a-dospele/"
+        "link": "https://tsdynamic.cz/kurzy/pokracovaci-tanecni-pro-vysokoskolaky-a-dospele/",
+        "tel": "734 369 982",
+        "email": "kancelar@tsdynamic.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -70,12 +86,15 @@
         "duration": "od 3. 2. 2020",
         "day": "monday",
         "time": "18:15 - 19:45",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
    
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -83,11 +102,14 @@
         "duration": "od 3. 2. 2020",
         "day": "monday",
         "time": "20:00 - 21:30",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -95,11 +117,14 @@
         "duration": "",
         "day": "",
         "time": "",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -107,11 +132,14 @@
         "duration": "od 4. 2. 2020",
         "day": "tuesday",
         "time": "17:00 - 18:30",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -119,11 +147,14 @@
         "duration": "od 4. 2. 2020",
         "day": "tuesday",
         "time": "18:45 - 20:15",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -131,11 +162,14 @@
         "duration": "od 5. 2. 2020",
         "day": "wednesday",
         "time": "20:00 - 21:30",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -143,11 +177,14 @@
         "duration": "od 6. 2. 2020",
         "day": "thursday",
         "time": "18:15 - 19:45",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -155,11 +192,14 @@
         "duration": "od 6. 2. 2020",
         "day": "thursday",
         "time": "20:00 - 21:30",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -167,11 +207,14 @@
         "duration": "od 7. 2. 2020",
         "day": "monday",
         "time": "18:15 - 19:45",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -179,11 +222,14 @@
         "duration": "od 2. 2. 2020",
         "day": "sunday",
         "time": "18:45 - 20:15",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -191,11 +237,14 @@
         "duration": "od 2. 2. 2020",
         "day": "sunday",
         "time": "20:30 - 22:00",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/bambusove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Lehce pokročilí",
         "partner": "Ano",
@@ -203,11 +252,14 @@
         "duration": "od 3. 2. 2020",
         "day": "monday",
         "time": "20:00 - 21:30",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Lehce pokročilí",
         "partner": "Ano",
@@ -215,11 +267,14 @@
         "duration": "od 4. 2. 2020",
         "day": "tuesday",
         "time": "17:00 - 18:30",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Lehce pokročilí",
         "partner": "Ano",
@@ -227,11 +282,14 @@
         "duration": "od 5. 2. 2020",
         "day": "wednesday",
         "time": "20:00 - 21:30",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Lehce pokročilí",
         "partner": "Ano",
@@ -239,11 +297,14 @@
         "duration": "od 6. 2. 2020",
         "day": "thursday",
         "time": "18:15 - 19:45",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Lehce pokročilí",
         "partner": "Ano",
@@ -251,11 +312,14 @@
         "duration": "od 2. 2. 2020",
         "day": "sunday",
         "time": "17:00 - 18:30",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/dubove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -263,11 +327,14 @@
         "duration": "od 4. 2. 2020",
         "day": "tuesday",
         "time": "20:30 - 22:00",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/cedrove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/cedrove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -275,11 +342,14 @@
         "duration": "od 5. 2. 2020",
         "day": "wednesday",
         "time": "18:15 - 19:45",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/cedrove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/cedrove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -287,11 +357,14 @@
         "duration": "od 5. 2. 2020",
         "day": "thursday",
         "time": "20:00 - 21:30",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/cedrove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/cedrove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -299,11 +372,14 @@
         "duration": "od 2. 2. 2020",
         "day": "sunday",
         "time": "18:45 - 20:15",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/palisandrove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/palisandrove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 3,
+        "danceSchool": "Taneční škola Eso",
         "danceFamily": 3,
+        "address": "Jana Babáka, 602 00 Brno-Královo Pole",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -311,11 +387,14 @@
         "duration": "od 2. 2. 2020",
         "day": "tuesday",
         "time": "18:45 - 20:15",
-        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/mahagonove-tanecni"
+        "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/mahagonove-tanecni",
+        "tel": "776 746 372",
+        "email": "jindrich.vlacil@tanecniskolaeso.cz"
     },
     {
-        "danceSchool": 4,
+        "danceSchool": "RugCutters",
         "danceFamily": 1,
+        "address": "Černopolní 791/8, 613 00 Brno-sever",
         "style": "Solo swing",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -323,11 +402,14 @@
         "duration": "od 14.1.2020 (6 lekcí)",
         "day": "tuesday",
         "time": "17:40 - 18:40",
-        "link": "http://www.rugcutters.cz/kursy/kurs/plgfq/back/kursy/aktualni"
+        "link": "http://www.rugcutters.cz/kursy/kurs/plgfq/back/kursy/aktualni",
+        "tel": "776 037 709",
+        "email": "pavel@fireballs.cz"
     },
     {
-        "danceSchool": 4,
-        "danceFamily": "Swing",
+        "danceSchool": "RugCutters",
+        "danceFamily": 1,
+        "address": "Černopolní 791/8, 613 00 Brno-sever",
         "style": "Lindy hop 3",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -335,11 +417,14 @@
         "duration": "od 14.1.2020 (6 lekcí)",
         "day": "tuesday",
         "time": "19:00 - 20:00",
-        "link": "http://www.rugcutters.cz/kursy/kurs/qxexy/back/kursy/aktualni"
+        "link": "http://www.rugcutters.cz/kursy/kurs/qxexy/back/kursy/aktualni",
+        "tel": "776 037 709",
+        "email": "pavel@fireballs.cz"
     },
     {
-        "danceSchool": 4,
-        "danceFamily": "Swing",
+        "danceSchool": "RugCutters",
+        "danceFamily": 1,
+        "address": "Černopolní 791/8, 613 00 Brno-sever",
         "style": "Lindy hop 1",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -347,11 +432,14 @@
         "duration": "od 22.1.2020",
         "day": "wednesday",
         "time": "18:00 - 19:00",
-        "link": "http://www.rugcutters.cz/kursy/kurs/xfepr/back/kursy/aktualni"
+        "link": "http://www.rugcutters.cz/kursy/kurs/xfepr/back/kursy/aktualni",
+        "tel": "776 037 709",
+        "email": "pavel@fireballs.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 3,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -359,11 +447,14 @@
         "duration": "od 1.1.2020",
         "day": "monday",
         "time": "19:00 - 20:30",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 3,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -371,11 +462,14 @@
         "duration": "od 1.1.2020",
         "day": "monday",
         "time": "20:30 - 22:00",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool":5,
+        "danceSchool":"Starlet Brno",
         "danceFamily": 3,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -383,11 +477,14 @@
         "duration": "od 1.1.2020",
         "day": "wednesday",
         "time": "17:30 - 19:00",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 3,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -395,11 +492,14 @@
         "duration": "od 1.1.2020",
         "day": "wednesday",
         "time": "19:00 - 20:30",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 3,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Taneční pro dospělé",
         "level":"Začátečníci",
         "partner": "Ano",
@@ -407,11 +507,14 @@
         "duration": "od 1.1.2020",
         "day": "monday",
         "time": "20:30-22:00",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/55-tanecni-pro-dospele-vysokoskolaky-zacatecniky.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 3,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -419,11 +522,14 @@
         "duration": "od 1.1.2020",
         "day": "monday",
         "time": "17:30 - 19:00",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 3,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -431,11 +537,14 @@
         "duration": "od 1.1.2020",
         "day": "wednesday",
         "time": "17:30 - 19:00",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 3,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -443,11 +552,14 @@
         "duration": "od 1.1.2020",
         "day": "thursday",
         "time": "20:30 - 22:00",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 3,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -455,11 +567,14 @@
         "duration": "od 1.1.2020",
         "day": "friday",
         "time": "18:30 - 20:00",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 3,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Taneční pro dospělé",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -467,11 +582,14 @@
         "duration": "od 1.1.2020",
         "day": "sunday",
         "time": "17:00 - 18:30",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/58-pokracovaci-tanecni-pro-dospele-vysokoskolaky.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 3,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Taneční kurzy- singles",
         "level":"Začátečnící",
         "partner": "Ne",
@@ -479,11 +597,14 @@
         "duration": "od 1.1.2020",
         "day": "monday",
         "time": "20:30 - 22:00",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/441-tanecni-kurzy-singles.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-spolecensky-tanec/441-tanecni-kurzy-singles.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 1,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Boogie-Jive",
         "level":"Začátečnící",
         "partner": "Ano",
@@ -491,11 +612,14 @@
         "duration": "",
         "day": "tuesday",
         "time": "17:00 - 18:30",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-specialni-kurzy/222-boogie-a-swing.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-specialni-kurzy/222-boogie-a-swing.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 2,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Ladies latino",
         "level":"Začátečnící",
         "partner": "Ne",
@@ -503,11 +627,14 @@
         "duration": "",
         "day": "thursday",
         "time": "17:45 - 18:45",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-specialni-kurzy/248-latino-pro-zeny.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-specialni-kurzy/248-latino-pro-zeny.html",
+        "tel": "732 754 293",
+         "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 5,
+        "danceSchool": "Starlet Brno",
         "danceFamily": 2,
+        "address": "Špitálka 253/6, 602 00 Brno-střed-Zábrdovice",
         "style": "Speciál latino",
         "level":"Pokročilí",
         "partner": "Ano",
@@ -515,11 +642,14 @@
         "duration": "od 3.1.2020",
         "day": "friday",
         "time": "17:00 - 18:30",
-        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-specialni-kurzy/92-special-latina.html"
+        "link": "https://www.starlet-brno.cz/prehled-kurzu/dospeli-specialni-kurzy/92-special-latina.html",
+        "tel": "732 754 293",
+        "email": "starlet@starlet-brno.cz"
     },
     {
-        "danceSchool": 6,
+        "danceSchool": "Taneční studio Stolárna",
         "danceFamily": 2,
+        "address": "Olomoucká 14, 618 00 Brno-Černovice",
         "style": "WEST COAST SWING I.",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -527,11 +657,14 @@
         "duration": "od 9.1.2020",
         "day": "monday",
         "time": "20:45 - 22:00",
-        "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
+        "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2",
+        "tel": "702 155 707",
+        "email": "tanecnistudio@gmail.com"
     },
     {
-        "danceSchool": 6,
+        "danceSchool": "Taneční studio Stolárna",
         "danceFamily": 2,
+        "address": "Olomoucká 14, 618 00 Brno-Černovice",
         "style": "WEST COAST SWING II.",
         "level":"Pokročilí",
         "partner": "",
@@ -539,11 +672,14 @@
         "duration": "od 9.1.2020",
         "day": "tuesday",
         "time": "20:45 - 22:00",
-        "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
+        "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2",
+        "tel": "702 155 707",
+        "email": "tanecnistudio@gmail.com"
     },
     {
-        "danceSchool": 6,
+        "danceSchool": "Taneční studio Stolárna",
         "danceFamily": 2,
+        "address": "Olomoucká 14, 618 00 Brno-Černovice",
         "style": "WEST COAST SWING III.",
         "level":"Pokročilí",
         "partner": "",
@@ -551,11 +687,14 @@
         "duration": "od 9.1.2020",
         "day": "wednesday",
         "time": "18:15 - 19:30",
-        "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
+        "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2",
+        "tel": "702 155 707",
+        "email": "tanecnistudio@gmail.com"
     },
     {
-        "danceSchool": 6,
+        "danceSchool": "Taneční studio Stolárna",
         "danceFamily": 2,
+        "address": "Olomoucká 14, 618 00 Brno-Černovice",
         "style": "Salsa",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -563,11 +702,14 @@
         "duration": "od 9.1.2020",
         "day": "sunday",
         "time": "16:15 - 17:30",
-        "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
+        "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2",
+        "tel": "702 155 707",
+        "email": "tanecnistudio@gmail.com"
     },
     {
-        "danceSchool": 6,
+        "danceSchool": "Taneční studio Stolárna",
         "danceFamily": 2,
+        "address": "Olomoucká 14, 618 00 Brno-Černovice",
         "style": "Zouk I.",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -575,11 +717,14 @@
         "duration": "od 9.1.2020",
         "day": "wednesday",
         "time": "19:30 - 20:45",
-        "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
+        "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2",
+        "tel": "702 155 707",
+        "email": "tanecnistudio@gmail.com"
     },
     {
-        "danceSchool": 6,
+        "danceSchool": "Taneční studio Stolárna",
         "danceFamily": 2,
+        "address": "Olomoucká 14, 618 00 Brno-Černovice",
         "style": "Zouk I.",
         "level":"Lehce pokročilí",
         "partner": "N",
@@ -587,11 +732,14 @@
         "duration": "od 9.1.2020",
         "day": "tuesday",
         "time": "19:30 - 20:45",
-        "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
+        "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2",
+        "tel": "702 155 707",
+        "email": "tanecnistudio@gmail.com"
     },
     {
-        "danceSchool": 7,
+        "danceSchool": "Swing Wings",
         "danceFamily": 1,
+        "address": "Areál Křenová 19, Brno, 602 00",
         "style": "Lindy Hop 1",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -599,11 +747,14 @@
         "duration": "od 4.11. 2019",
         "day": "thursday",
         "time": "17:30 - 18:40",
-        "link": "https://www.swingwings.cz/rozvrh/"
+        "link": "https://www.swingwings.cz/rozvrh/",
+        "tel": "",
+        "email": "pilot@swingwings.cz"
     },
     {
-        "danceSchool": 7,
+        "danceSchool": "Swing Wings",
         "danceFamily": 1,
+        "address": "Areál Křenová 19, Brno, 602 00",
         "style": "Lindy Hop 1",
         "level":"Začátečníci",
         "partner": "Ne",
@@ -611,11 +762,14 @@
         "duration": "od 4.11. 2019",
         "day": "wednesday",
         "time": "20:00 - 21:10",
-        "link": "https://www.swingwings.cz/rozvrh/"
+        "link": "https://www.swingwings.cz/rozvrh/",
+        "tel": "",
+        "email": "pilot@swingwings.cz"
     },
     {
-        "danceSchool": 7,
+        "danceSchool": "Swing Wings",
         "danceFamily": 1,
+        "address": "Areál Křenová 19, Brno, 602 00",
         "style": "Lindy Hop 3 Charleston",
         "level":"Pokročilí",
         "partner": "Ne",
@@ -623,11 +777,14 @@
         "duration": "od 4.11. 2019",
         "day": "thursday",
         "time": "17:30 - 18:40",
-        "link": "https://www.swingwings.cz/rozvrh/"
+        "link": "https://www.swingwings.cz/rozvrh/",
+        "tel": "",
+        "email": "pilot@swingwings.cz"
     },
     {
-        "danceSchool": 7,
+        "danceSchool": "Swing Wings",
         "danceFamily": 1,
+        "address": "Areál Křenová 19, Brno, 602 00",
         "style": "Blues/ Slow Dancing",
         "level":"Pokročilí",
         "partner": "Ne",
@@ -635,6 +792,8 @@
         "duration": "od 4.11. 2019",
         "day": "thursday",
         "time": "20:00 - 21:10",
-        "link": "https://www.swingwings.cz/rozvrh/"
+        "link": "https://www.swingwings.cz/rozvrh/",
+        "tel": "",
+        "email": "pilot@swingwings.cz"
     }
  ]
