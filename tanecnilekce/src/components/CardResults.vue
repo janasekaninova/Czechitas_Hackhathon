@@ -12,11 +12,11 @@
 
       <div class="detailyVysledky">
         {{ cardContent }}
-        <p>{{ cardContent.danceSchool.name }}</p>
+<!--         <p>{{ cardContent.danceSchool.name }}</p>
         <p>{{ cardContent.danceSchool.address }}</p>
         <p>{{ cardContent.danceSchool.tel }}</p>
         <p>{{ lekce.danceFamily }} {{ lekce.style }}</p>
-        <p>{{ lekce.daration }} {{ lekce.day }} {{ lekce.time }}</p>
+        <p>{{ lekce.daration }} {{ lekce.day }} {{ lekce.time }}</p> -->
         <button>Více o kurzu</button>
       </div> 
     </div>
@@ -34,7 +34,7 @@ export default {
 
 <style>
 .karticka {
-  margin: 10px;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
@@ -61,7 +61,7 @@ export default {
 @media (min-width: 1100px) {
 
   .karticka {
-  width: 1100px;
+  max-width: 1100px;
  }
 }
 </style>
