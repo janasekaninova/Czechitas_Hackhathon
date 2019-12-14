@@ -7,7 +7,7 @@
     <div>
       <gaffsday 
       v-for="day in results" 
-      v-bind:timetable="day.id"
+      v-bind:timetable="day"
       v-bind:key="day.id"
       />
 
@@ -25,7 +25,6 @@ import OurFooter from "../components/OurFooter.vue";
 export default {
   name: "gaffs",
   components: {
-    /*     'gaffsresults': GaffsResults, */
     gaffsday: GaffsDay,
     ourfooter: OurFooter
   },

@@ -8,7 +8,7 @@
     </div>
 
     <div class="detailyVysledky">
-      <p>termín</p>
+      <p>{{}}</p>
       <p>její adresa</p>
       <p>Vybraná tš</p>
       <p>čeho lekce</p>
@@ -23,11 +23,11 @@ export default {
   components: {
 
   },
+  props: ["singleGaff"]
 }
 </script>
 
 <style>
-
 .detailyNazvy {
   padding-right: 20px;
 }
