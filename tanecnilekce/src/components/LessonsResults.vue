@@ -19,6 +19,7 @@
         <button>Více o kurzu</button>
       </div> 
     </div>
+    {{ dataFromHome }}
   </div>
 </template>
 
@@ -28,11 +29,12 @@ export default {
   components: {
       
   },
-  data() {
+  props: ['dataFromHome'],
+/*   data() {
     return {
       lekce: []
     }
-  },
+  }, */
 /*   mounted() {
     fetch('/API/LessonsAPI.json')
     .then(response => response.json())
@@ -44,9 +46,9 @@ export default {
     })    
   }, */
 /*   props: [ 'selectedStyle' ], */
-  computed () {
+/*   computed () {
     return lekce.filter( kurz => kurz.danceFamily === selectedStyle);
-  }
+  } */
 }
 </script>
 
