@@ -43,6 +43,13 @@ export default {
     gaffsday: GaffsDay,
     ourfooter: OurFooter
   },
+
+  data() {
+    return {
+      results: []
+    }
+  },
+  
   methods: {},
 
   mounted() {
