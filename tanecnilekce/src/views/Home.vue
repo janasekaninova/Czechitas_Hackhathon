@@ -66,9 +66,9 @@ import Weekcheck from "../components/Weekcheck.vue";
 export default {
   name: "home",
   components: {
-    lessonsresults: LessonsResults,
-    ourfooter: OurFooter,
-    weekcheck: Weekcheck
+    'lessonsresults': LessonsResults,
+    'ourfooter': OurFooter,
+    'weekcheck': Weekcheck
   },
   data() {
     return {
