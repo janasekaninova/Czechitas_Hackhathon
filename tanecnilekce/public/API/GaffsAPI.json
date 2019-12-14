@@ -1,8 +1,9 @@
-[{
+[
+{
     "danceFamily": "Standardní tance",
     "danceSchool": "Taneční škola Eso",
     "address": "Malý sál, Cejl 76",
-    "day": "Úterý",
+    "day": "Tuesday",
     "time": "20:30 - 22:00",
     "partner": "Ne",
     "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tanecni-klub-eso-z-s"
@@ -11,7 +12,7 @@
     "danceFamily": "Latinsko-americké tance",
     "danceSchool": "Taneční škola Eso",
     "address": "Malý sál, Cejl 76",
-    "day": "Čtvrtek",
+    "day": "Thursday",
     "time": "20:30 - 22:00",
     "partner": "Ne",
     "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tanecni-klub-eso-z-s"
@@ -20,7 +21,7 @@
     "danceFamily": "Latinsko-americké tance",
     "danceSchool": "Taneční škola Eso",
     "address": "Velký i malý sál, Cejl 76",
-    "day": "Sobota",
+    "day": "Saturday",
     "time": "18:00 - 20:00",
     "partner": "Ne",
     "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tanecni-klub-eso-z-s"
@@ -29,7 +30,7 @@
     "danceFamily": "Standardní tance",
     "danceSchool": "Taneční škola Eso",
     "address": "Velký sál, Jana Babáka 11",
-    "day": "Neděle",
+    "day": "Sunday",
     "time": "20:30 - 22:00",
     "partner": "Ne",
     "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tanecni-klub-eso-hobby"
@@ -38,7 +39,7 @@
     "danceFamily": "Standardní tance",
     "danceSchool": "Taneční škola Eso",
     "address": "Velký sál, Cejl 76",
-    "day": "Pátek",
+    "day": "Friday",
     "time": "20:00 - 22:00",
     "partner": "Ne",
     "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tancirna-eso-original"
@@ -47,7 +48,7 @@
     "danceFamily": "Standardní tance",
     "danceSchool": "Taneční škola Eso",
     "address": "Velký sál, Cejl 76",
-    "day": "Sobota",
+    "day": "Saturday",
     "time": "20:00 - 22:00",
     "partner": "Ne",
     "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tancirna-eso-original"
@@ -56,7 +57,7 @@
     "danceFamily": "Standardní tance",
     "danceSchool": "Taneční škola Eso",
     "address": "Velký sál, Cejl 76",
-    "day": "Pondělí",
+    "day": "Monday",
     "time": "20:00 - 22:00",
     "partner": "Ne",
     "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tancirna-eso-original"
@@ -65,7 +66,7 @@
     "danceFamily": "Standardní tance",
     "danceSchool": "Taneční škola Eso",
     "address": "Velký sál, Cejl 76",
-    "day": "Středa",
+    "day": "Wednesday",
     "time": "20:00 - 22:00",
     "partner": "Ne",
     "link": "https://www.tanecniskolaeso.cz/tanecni-kurzy/tancirna-eso-original"
@@ -74,7 +75,7 @@
     "danceFamily": "Swing",
     "danceSchool": "RugCutters",
     "address": "Brno, Černopolní 8, RugCutters.cz",
-    "day": "Sobota",
+    "day": "Saturday",
     "time": "10:00 - 12:30",
     "partner": "Ne",
     "link": "http://www.rugcutters.cz/kursy/kurs/tbtjw/back/kursy/aktualni"
@@ -83,7 +84,7 @@
     "danceFamily": "Standardní tance",
     "danceSchool": "Starlet Brno",
     "address": "Špitálka 253/6, 602 00 Brno",
-    "day": "Pátek",
+    "day": "Friday",
     "time": "20:00-22:30",
     "partner": "Ne",
     "link": "https://www.starlet-brno.cz/akce-starletu/tancirny.html"
@@ -92,7 +93,7 @@
     "danceFamily": "Standardní tance",
     "danceSchool": "Starlet Brno",
     "address": "Špitálka 253/6, 602 00 Brno",
-    "day": "Sobota",
+    "day": "Saturday",
     "time": "19:00-21:30",
     "partner": "Ne",
     "link": "https://www.starlet-brno.cz/akce-starletu/tancirny.html"
@@ -101,7 +102,7 @@
     "danceFamily": "Latinsko-americké tance",
     "danceSchool": "Stolárna",
     "address": "Olomoucká 14, 618 00 Brno",
-    "day": "Pátek",
+    "day": "Friday",
     "time": "20:00-23:30",
     "partner": "Ne",
     "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
@@ -110,7 +111,7 @@
     "danceFamily": "Latinsko-americké tance",
     "danceSchool": "Stolárna",
     "address": "Olomoucká 14, 618 00 Brno",
-    "day": "Neděle",
+    "day": "Sunday",
     "time": "21:15 - 23:00",
     "partner": "Ne",
     "link": "http://studiostolarna.cz/stolarna/index.php/en/component/content/article/12-news-parrent/news/106-rozvrh2"
@@ -119,7 +120,7 @@
     "danceFamily": "Swing",
     "danceSchool": "Swing Wings",
     "address": "Café Atlas, Žerotínovo nám. 533/6, 602 00 Brno-střed",
-    "day": "Neděle 5.1.2020",
+    "day": "Sunday",
     "time": "19:30 – 23:40",
     "partner": "Ne",
     "link": "https://www.swingwings.cz/akce/tancirny/"
@@ -128,7 +129,7 @@
     "danceFamily": "Swing",
     "danceSchool": "Swing Wings",
     "address": "Café Atlas, Žerotínovo nám. 533/6, 602 00 Brno-střed",
-    "day": "Neděle 19.1.2020",
+    "day": "Sunday",
     "time": "19:30 – 23:40",
     "partner": "Ne",
     "link": "https://www.swingwings.cz/akce/tancirny/"
@@ -137,7 +138,7 @@
     "danceFamily": "Swing",
     "danceSchool": "Swing Wings",
     "address": "Café Atlas, Žerotínovo nám. 533/6, 602 00 Brno-střed",
-    "day": "Neděle 26.1.2020",
+    "day": "Sunday",
     "time": "19:30 – 23:40",
     "partner": "Ne",
     "link": "https://www.swingwings.cz/akce/tancirny/"

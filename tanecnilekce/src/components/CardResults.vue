@@ -10,6 +10,12 @@
         <p>Termín: </p>
       </div>
 
+      <div class="detailyVysledky">
+        {{ cardContent }}
+
+
+
+        <button>Více o kurzu</button>
       <div class="detailyVysledky">     
         <p>{{ cardContent.danceSchool}}</p>
         <p>{{ cardContent.address }}</p>
