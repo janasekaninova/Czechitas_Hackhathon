@@ -27,7 +27,7 @@
       <button type="button" v-on:click="search">Vyhledat</button>
     </div>
 
-    <lessonsresults />
+    <lessonsresults v-bind:dataFromHome = "results" />
 
     <section class="fotogalerie">
       <a href="https://www.danza.cz/">
@@ -54,7 +54,7 @@
     </section>
 
     <ourfooter />
-    {{filters}}
+
   </div>
 </template>
 
@@ -116,7 +116,9 @@ export default {
         checkedDay: [],
         selectedDistrict: "",
         selectedStyle: ""
-      }
+      },
+
+      results: []
     };
   },
 
@@ -126,20 +128,18 @@ export default {
     },
     search() {
       fetch("/API/LessonsAPI.json")
-        .then(response => response.json())
-        .then(data => {
-          const res = data.filter(i => {
-            console.log(i.district + " " + this.filters.selectedDistrict);
-            return i.district === this.filters.selectedDistrict;
-          }).filter(i => {
-            return i.danceFamily === this.filters.selectedStyle;
-          }).filter(i => this.filters.checkedDay.some(day => day === i.day));
+      .then(response => response.json())
+      .then(data => {
+        this.results = data
+        .filter(i => i.district === this.filters.selectedDistrict)
+        .filter(i => i.danceFamily === this.filters.selectedStyle)
+        .filter(i => this.filters.checkedDay.some(day => day === i.day));
 
-          console.log(res);
-        })
-        .catch(error => {
-          console.log(error);
-        });
+        console.log(this.results);
+      })
+      .catch(error => {
+        console.log(error);
+      });
     }
   },
 
