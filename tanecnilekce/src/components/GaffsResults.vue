@@ -8,10 +8,10 @@
     </div>
 
     <div class="detailyVysledky">
-      <p>{{}}</p>
-      <p>její adresa</p>
-      <p>Vybraná tš</p>
-      <p>čeho lekce</p>
+      <p>{{ singleGaff.time }}</p>
+      <p>{{ singleGaff.address }}</p>
+      <p>{{ singleGaff.danceSchool }}</p>
+      <p>{{ singleGaff.danceFamily }}</p>
     </div>     
     <button>Více o akci</button>
   </div>  
