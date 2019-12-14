@@ -149,6 +149,12 @@ export default {
 
 <style>
 /* vyhledávací formulář */
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
 h2 {
   font-size: 36px;
   margin-top: 5px;
@@ -162,7 +168,7 @@ label {
 
 .formular {
   padding: 10px;
-  margin: 10px;
+/*   margin: 10px; */
   margin-left: auto;
   margin-right: auto;
   background-color: #f3ebb6;
