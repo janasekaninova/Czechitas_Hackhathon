@@ -42,14 +42,6 @@ export default {
 </script>
 
 <style>
-.karticka {
-  background-color: #f3ebb6;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-  margin: 10px;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;     
-}
 
 .detailyNazvy {
   padding-right: 20px;
