@@ -14,7 +14,7 @@
         <p>{{ cardContent.danceSchool}}</p>
         <p>{{ cardContent.address }}</p>
         <p>{{ cardContent.tel }}, {{ cardContent.email }}</p>
-        <p>{{ cardContent.style }}, {{ cardContent.level}}</p>
+        <p>{{ cardContent.style }}, {{ cardContent.level }}</p>
         <p>{{ cardContent.duration }}, {{ cardContent.day }}, {{ cardContent.time }}</p>
       </div> 
         <button>Více o kurzu</button>

@@ -134,7 +134,6 @@ export default {
         .filter(i => i.district === this.filters.selectedDistrict)
         .filter(i => i.danceFamily === this.filters.selectedStyle)
         .filter(i => this.filters.checkedDay.some(day => day === i.day));
-
         console.log(this.results);
       })
       .catch(error => {

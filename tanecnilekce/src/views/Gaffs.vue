@@ -5,7 +5,8 @@
     </div>
 
     <div>
-      <h2>Pondělí</h2>
+      <gaffsday />
+<!--       <h2>Pondělí</h2>
         <gaffsresults />
       <h2>Úterý</h2>
         <gaffsresults />
@@ -18,21 +19,22 @@
       <h2>Sobota</h2>
         <gaffsresults />
       <h2>Neděle</h2>
-        <gaffsresults />
+        <gaffsresults /> -->
     </div>
 
-    <!-- paticka -->
     <ourfooter />
   </div>
 </template>
 
 <script>
-import GaffsResults from '../components/GaffsResults';
+/* import GaffsResults from '../components/GaffsResults'; */
+import GaffsDay from '../components/GaffsDay';
 import OurFooter from '../components/OurFooter.vue';
 export default {
   name: 'gaffs',
   components: {
-    'gaffsresults': GaffsResults,
+/*     'gaffsresults': GaffsResults, */
+    'gaffsday': GaffsDay,
     'ourfooter': OurFooter   
   }
 }
