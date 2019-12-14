@@ -6,7 +6,7 @@
 
     <div>
       <gaffsday 
-      v-for="day in results" 
+      v-for="day in sortedWeek" 
       v-bind:timetable="day"
       v-bind:key="day.id"
       />
@@ -61,6 +61,13 @@ export default {
       .catch(error => {
         console.log(error);
       });
+  },
+
+  computed: {
+    sortedWeek() {
+      return this.results.sort(function(a, b) {
+      return a.id - b.id} )
+    }
   }
 };
 </script>

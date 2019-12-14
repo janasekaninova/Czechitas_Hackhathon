@@ -17,7 +17,8 @@ export default {
     gaffsresults: GaffsResults
   },
   props: ["timetable"]
-};
+}
+
 </script>
 
 <style>
