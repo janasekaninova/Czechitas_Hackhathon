@@ -12,11 +12,9 @@
 
       <div class="detailyVysledky">
         {{ cardContent }}
-<!--         <p>{{ cardContent.danceSchool.name }}</p>
-        <p>{{ cardContent.danceSchool.address }}</p>
-        <p>{{ cardContent.danceSchool.tel }}</p>
-        <p>{{ lekce.danceFamily }} {{ lekce.style }}</p>
-        <p>{{ lekce.daration }} {{ lekce.day }} {{ lekce.time }}</p> -->
+
+
+
         <button>Více o kurzu</button>
       </div> 
     </div>
