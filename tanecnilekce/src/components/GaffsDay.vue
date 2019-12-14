@@ -1,8 +1,11 @@
 <template>
   <div>
-    <h2>nadpis dne</h2>
-
-    <gaffsresults />
+    <h2>{{ timetable.id }}</h2>
+    <gaffsresults 
+        v-for="(action, index) in timetable.actions"
+        v-bind:singleGaff="action"
+        v-bind:key="index"
+         />
   </div>
 </template>
 
@@ -13,7 +16,6 @@ export default {
   components: {
     gaffsresults: GaffsResults
   },
-
   props: ["timetable"]
 };
 </script>
