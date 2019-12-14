@@ -107,9 +107,9 @@ export default {
       ],
 
       style: [
-        { name: "Standartní", id: 1 },
+        { name: "Swing", id: 1 },
         { name: "Latinsko-americké", id: 2 },
-        { name: "Swing", id: 3 }
+        { name: "Standart", id: 3 }
       ],
 
       filters: {
