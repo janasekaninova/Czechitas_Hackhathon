@@ -6,25 +6,11 @@
 
     <div>
       <gaffsday 
-      v-for="day in this.results" 
+      v-for="day in results" 
       v-bind:timetable="day.id"
       v-bind:key="day.id"
       />
 
-      <!--       <h2>Pondělí</h2>
-        <gaffsresults />
-      <h2>Úterý</h2>
-        <gaffsresults />
-      <h2>Středa</h2>
-        <gaffsresults />
-      <h2>Čtvrtek</h2>
-        <gaffsresults />
-      <h2>Pátek</h2>
-        <gaffsresults />
-      <h2>Sobota</h2>
-        <gaffsresults />
-      <h2>Neděle</h2>
-      <gaffsresults />-->
     </div>
 
     <ourfooter />
@@ -44,6 +30,12 @@ export default {
     ourfooter: OurFooter
   },
   methods: {},
+
+  data() {
+    return {
+      results: []
+    }
+  },
 
   mounted() {
     fetch("/API/GaffsAPI.json")
