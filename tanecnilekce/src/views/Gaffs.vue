@@ -44,7 +44,7 @@ export default {
     fetch("/API/GaffsAPI.json")
       .then(response => response.json())
       .then(data => {
-        const reduceFce = (item, mapa) => {
+        const reduceFce = (mapa, item) => {
           if (!mapa.has(item.day)) {
             mapa.set(item.day, { id: item.day, actions: [] });
           }
