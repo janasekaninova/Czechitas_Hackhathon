@@ -11,7 +11,6 @@
           {{ place.name }}
           </option>
         </select>
-      <br>
 
       <label for="styl">Styl tance</label>
       <!-- <input placeholder="Enter your username"> -->
@@ -19,45 +18,12 @@
           <option v-for="dance in style"
                   v-bind:id="dance.id"
                   v-bind:key="dance.id">
-                  {{dance.name}}
+          {{ dance.name }}
           </option>
         </select>
-      <br>
 
-      <fieldset>
-        <legend >Jaký den mi vyhovuje?</legend>
-        <div class="checkboxArea">
-          <div class="days">
-            <input type="checkbox" id="pondeli" name="pondeli">
-            <label for="scales">Pondělí</label>
-          </div>
-          <div class="days">
-            <input type="checkbox" id="utery" name="utery">
-            <label for="scales">Úterý</label> 
-          </div>
-          <div class="days">
-            <input type="checkbox" id="streda" name="streda">
-            <label for="scales">Středa</label>
-          </div>
-          <div class="days">
-            <input type="checkbox" id="ctvrtek" name="ctvrtek">
-            <label for="scales">Čtvrtek</label>
-          </div>
-          <div class="days">
-            <input type="checkbox" id="patek" name="patek">
-            <label for="scales">Pátek</label>
-          </div>
-          <div class="days">
-            <input type="checkbox" id="sobota" name="sobota">
-            <label for="scales">Sobota</label>
-          </div>
-          <div class="days">
-            <input type="checkbox" id="nedele" name="nedele">
-            <label for="scales">Neděle</label>
-          </div>
-        </div>
-      </fieldset>
-
+      <weekcheck />
+     
       <button type="button">Vyhledat</button>
     </div>
 
@@ -74,19 +40,21 @@
     </section>
 
     <ourfooter />
-
+    
   </div>
 </template>
 
 <script>
 import LessonsResults from '../components/LessonsResults.vue';
 import OurFooter from '../components/OurFooter.vue';
+import Weekcheck from '../components/Weekcheck.vue';
 
 export default {
   name: 'home',
   components: {
     'lessonsresults': LessonsResults,
     'ourfooter': OurFooter,
+    'weekcheck': Weekcheck
   },
   data() {
     return {
@@ -144,14 +112,10 @@ h2 {
     margin-top: 5px;
 }
 
-label,
-legend {
+label
+{
   font-size: 22px;
   margin: 5px;
-  padding: 5px;
-}
-
-fieldset {
   padding: 5px;
 }
 
@@ -200,12 +164,6 @@ button {
   .menu li {
     border-bottom: 1px solid #ffffff;  
     flex: 0 0 33%;
-  }
-
-  .checkboxArea {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
   }
 }
 
