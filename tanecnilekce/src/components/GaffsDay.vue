@@ -12,7 +12,9 @@ export default {
   name: "gaffsday",
   components: {
     gaffsresults: GaffsResults
-  }
+  },
+
+  props: ["timetable"]
 };
 </script>
 

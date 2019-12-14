@@ -5,7 +5,12 @@
     >Už toho umíš dost a chceš si jenom zatančit, nebo se nanejvýš naučit nějaký ten pohyb navíc? Od toho tu jsou tančírny, kde za drobný peníz získáš prostor na parketu a třeba i radu zkušenějších.</div>
 
     <div>
-      <gaffsday />
+      <gaffsday 
+      v-for="day in this.results" 
+      v-bind:timetable="day.id"
+      v-bind:key="day.id"
+      />
+
       <!--       <h2>Pondělí</h2>
         <gaffsresults />
       <h2>Úterý</h2>
@@ -52,7 +57,7 @@ export default {
           return mapa;
         };
 
-        this.results = data.reduce(reduceFce, new Map()).values();
+       this.results = Array.from(data.reduce(reduceFce, new Map()).values());
         console.log(this.results);
       })
       .catch(error => {
