@@ -1,42 +1,56 @@
 <template>
-<div class="home">
+  <div class="home">
     <!-- vyhledávací formulář-->
     <div class="formular" id="app">
       <h2>Chci najít lekce</h2>
-       <label for="mesto">Lokalita</label>
-        <select v-model="filters.selectedDistrict">
-          <option v-for="place in districts"
-                  v-bind:value="place.id"
-                  v-bind:key="place.id">
-          {{ place.name }}
-          </option>
-        </select>
+      <label for="mesto">Lokalita</label>
+      <select v-model="filters.selectedDistrict">
+        <option
+          v-for="place in districts"
+          v-bind:value="place.id"
+          v-bind:key="place.id"
+        >{{ place.name }}</option>
+      </select>
 
       <label for="styl">Styl tance</label>
       <!-- <input placeholder="Enter your username"> -->
-        <select v-model="filters.selectedStyle">
-          <option v-for="dance in style"
-                  v-bind:value="dance.id"
-                  v-bind:key="dance.id">
-          {{ dance.name }}
-          </option>
-        </select>
+      <select v-model="filters.selectedStyle">
+        <option
+          v-for="dance in style"
+          v-bind:value="dance.id"
+          v-bind:key="dance.id"
+        >{{ dance.name }}</option>
+      </select>
 
       <weekcheck v-on:dayFilterChange="doOnDayFilterChange($event)" />
-     
+
       <button type="button" v-on:click="search">Vyhledat</button>
     </div>
 
     <lessonsresults />
 
     <section class="fotogalerie">
-      <a href="https://www.danza.cz/"><img src="@/Images/logo_danza.png" alt="logo TŠ Danza"></a>
-      <a href="https://tsdynamic.cz/"><img src="@/Images/logo_dynamic.png" alt="logo TŠ Dynamic"></a>
-      <a href="https://www.tanecniskolaeso.cz/"><img src="@/Images/logo_eso.png" alt="logo TŠ Eso"></a>
-      <a href="http://www.rugcutters.cz/"><img src="@/Images/logo_rugcutters.png" alt="logo TŠ Rug Cutters"></a>
-      <a href="https://www.starlet-brno.cz/"><img src="@/Images/logo_starlet.png" alt="logo TŠ Starlet"></a>
-      <a href="http://studiostolarna.cz/stolarna/index.php"><img src="@/Images/logo_stolarna.png" alt="logo TŠ Stolárna"></a>
-      <a href="https://www.swingwings.cz/"><img src="@/Images/logo_swing_wings.png" alt="logo TŠ Swing Wings"></a>
+      <a href="https://www.danza.cz/">
+        <img src="@/Images/logo_danza.png" alt="logo TŠ Danza" />
+      </a>
+      <a href="https://tsdynamic.cz/">
+        <img src="@/Images/logo_dynamic.png" alt="logo TŠ Dynamic" />
+      </a>
+      <a href="https://www.tanecniskolaeso.cz/">
+        <img src="@/Images/logo_eso.png" alt="logo TŠ Eso" />
+      </a>
+      <a href="http://www.rugcutters.cz/">
+        <img src="@/Images/logo_rugcutters.png" alt="logo TŠ Rug Cutters" />
+      </a>
+      <a href="https://www.starlet-brno.cz/">
+        <img src="@/Images/logo_starlet.png" alt="logo TŠ Starlet" />
+      </a>
+      <a href="http://studiostolarna.cz/stolarna/index.php">
+        <img src="@/Images/logo_stolarna.png" alt="logo TŠ Stolárna" />
+      </a>
+      <a href="https://www.swingwings.cz/">
+        <img src="@/Images/logo_swing_wings.png" alt="logo TŠ Swing Wings" />
+      </a>
     </section>
 
     <ourfooter />
@@ -45,65 +59,65 @@
 </template>
 
 <script>
-import LessonsResults from '../components/LessonsResults.vue';
-import OurFooter from '../components/OurFooter.vue';
-import Weekcheck from '../components/Weekcheck.vue';
+import LessonsResults from "../components/LessonsResults.vue";
+import OurFooter from "../components/OurFooter.vue";
+import Weekcheck from "../components/Weekcheck.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
-    'lessonsresults': LessonsResults,
-    'ourfooter': OurFooter,
-    'weekcheck': Weekcheck
+    lessonsresults: LessonsResults,
+    ourfooter: OurFooter,
+    weekcheck: Weekcheck
   },
   data() {
     return {
       districts: [
-      {name:'Bohunice', id: 1},
-      {name:'Bosonohy', id: 2} ,
-      {name:'Bystrc', id: 3},
-      {name:'Černovice', id: 4} ,
-      {name:'Chrlice', id: 5},
-      {name:'Ivanovice', id: 6},
-      {name:'Jehnice', id: 7},
-      {name:'Brno - Jih', id: 8},
-      {name:'Jundrov', id: 9},
-      {name:'Kníničky', id: 10},
-      {name:'Kohoutovice', id: 11},
-      {name:'Komín', id: 12},
-      {name:'Královo Pole', id: 13},
-      {name:'Líšeň', id: 14},
-      {name:'Maloměřice a Obřany', id: 15}, 
-      {name:'Medlánky', id: 16},
-      {name:'Nový Lískovec', id: 17},
-      {name:'Ořešín', id: 18},
-      {name:'Řečkovice a Mokrá Hora', id: 19},
-      {name:'Brno - Sever', id: 20},
-      {name:'Slatina', id: 21},
-      {name:'Starý Lískovec', id: 22},
-      {name:'Brno - Střed', id: 23},
-      {name:'Tuřany', id: 24},
-      {name:'Útěchov', id: 25},
-      {name:'Vinohrady', id: 26},
-      {name:'Žabovřesky', id: 27},
-      {name:'Žebětín', id: 28},
-      {name:'Židenice',id: 29},
-      {name: 'Černá pole', id: 30},
-      {name: 'Zábrdovice', id: 31}
+        { name: "Bohunice", id: 1 },
+        { name: "Bosonohy", id: 2 },
+        { name: "Bystrc", id: 3 },
+        { name: "Černovice", id: 4 },
+        { name: "Chrlice", id: 5 },
+        { name: "Ivanovice", id: 6 },
+        { name: "Jehnice", id: 7 },
+        { name: "Brno - Jih", id: 8 },
+        { name: "Jundrov", id: 9 },
+        { name: "Kníničky", id: 10 },
+        { name: "Kohoutovice", id: 11 },
+        { name: "Komín", id: 12 },
+        { name: "Královo Pole", id: 13 },
+        { name: "Líšeň", id: 14 },
+        { name: "Maloměřice a Obřany", id: 15 },
+        { name: "Medlánky", id: 16 },
+        { name: "Nový Lískovec", id: 17 },
+        { name: "Ořešín", id: 18 },
+        { name: "Řečkovice a Mokrá Hora", id: 19 },
+        { name: "Brno - Sever", id: 20 },
+        { name: "Slatina", id: 21 },
+        { name: "Starý Lískovec", id: 22 },
+        { name: "Brno - Střed", id: 23 },
+        { name: "Tuřany", id: 24 },
+        { name: "Útěchov", id: 25 },
+        { name: "Vinohrady", id: 26 },
+        { name: "Žabovřesky", id: 27 },
+        { name: "Žebětín", id: 28 },
+        { name: "Židenice", id: 29 },
+        { name: "Černá pole", id: 30 },
+        { name: "Zábrdovice", id: 31 }
       ],
 
       style: [
-        {name: 'Standartní', id: 1},
-        {name: 'Latinsko-americké', id: 2},
-        {name: 'Swing', id: 3}
+        { name: "Standartní", id: 1 },
+        { name: "Latinsko-americké", id: 2 },
+        { name: "Swing", id: 3 }
       ],
 
       filters: {
-        checkedDay:[],
-        selectedDistrict: '',
-        selectedStyle: ''
+        checkedDay: [],
+        selectedDistrict: "",
+        selectedStyle: ""
       }
-    }
+    };
   },
 
   methods: {
@@ -111,34 +125,34 @@ export default {
       this.filters.checkedDay = value;
     },
     search() {
-      fetch('/API/LessonsAPI.json')
-      .then(response => response.json())
-      .then(data => {
-       console.log(data.filter(i => {
-         console.log(i.district + ' ' + this.filters.selectedDistrict)
-         return i.district === this.filters.selectedDistrict}));
-      })
-      .catch(error => {
-        console.log(error);
-      })  
-    },
-    
+      fetch("/API/LessonsAPI.json")
+        .then(response => response.json())
+        .then(data => {
+          const res = data.filter(i => {
+            console.log(i.district + " " + this.filters.selectedDistrict);
+            return i.district === this.filters.selectedDistrict;
+          }).filter(i => {
+            return i.danceFamily === this.filters.selectedStyle;
+          }).filter();
 
-    
+          console.log(res);
+        })
+        .catch(error => {
+          console.log(error);
+        });
+    }
   }
 };
-
 </script>
 
 <style>
 /* vyhledávací formulář */
 h2 {
-    font-size: 36px;
-    margin-top: 5px;
+  font-size: 36px;
+  margin-top: 5px;
 }
 
-label
-{
+label {
   font-size: 22px;
   margin: 5px;
   padding: 5px;
@@ -154,9 +168,9 @@ label
 }
 
 button {
-  color:#280004;
-  background-color:#ffffff;
-  font-family: 'Roboto Condensed', sans-serif;
+  color: #280004;
+  background-color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
   font-weight: bold;
   padding: 10px;
@@ -178,7 +192,7 @@ button {
 
 .fotogalerie img:hover {
   filter: grayscale(0);
-} 
+}
 
 /*///////////////////////// tablet ////////////////////////////////*/
 @media (min-width: 700px) {
@@ -187,7 +201,7 @@ button {
   }
 
   .menu li {
-    border-bottom: 1px solid #ffffff;  
+    border-bottom: 1px solid #ffffff;
     flex: 0 0 33%;
   }
 }
@@ -199,7 +213,7 @@ button {
   }
 
   .formular {
-  width: 1100px;
- }
+    width: 1100px;
+  }
 }
 </style>

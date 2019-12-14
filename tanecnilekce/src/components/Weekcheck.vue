@@ -8,7 +8,7 @@
       </div>
       <div class="days">
         <input type="checkbox" id="tuesday" name="tuesday" value="tuesday" v-model="checkedDay">
-        <label for="thuesday">Úterý</label> 
+        <label for="tuesday">Úterý</label> 
       </div>
       <div class="days">
         <input type="checkbox" id="wednesday" name="wednesday" value="wednesday" v-model="checkedDay">
