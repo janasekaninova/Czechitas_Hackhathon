@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="tancirnyUvod">
-    Už toho umíš dost a chceš si jenom zatančit, nebo se nanejvýš naučit nějaký ten pohyb navíc? Od toho tu jsou tančírny, kde za drobný peníz získáš prostor na parketu a třeba i radu zkušenějších.
-    </div>
+    <div
+      class="tancirnyUvod"
+    >Už toho umíš dost a chceš si jenom zatančit, nebo se nanejvýš naučit nějaký ten pohyb navíc? Od toho tu jsou tančírny, kde za drobný peníz získáš prostor na parketu a třeba i radu zkušenějších.</div>
 
     <div>
       <gaffsday />
-<!--       <h2>Pondělí</h2>
+      <!--       <h2>Pondělí</h2>
         <gaffsresults />
       <h2>Úterý</h2>
         <gaffsresults />
@@ -19,7 +19,7 @@
       <h2>Sobota</h2>
         <gaffsresults />
       <h2>Neděle</h2>
-        <gaffsresults /> -->
+      <gaffsresults />-->
     </div>
 
     <ourfooter />
@@ -28,33 +28,38 @@
 
 <script>
 /* import GaffsResults from '../components/GaffsResults'; */
-import GaffsDay from '../components/GaffsDay';
-import OurFooter from '../components/OurFooter.vue';
+import GaffsDay from "../components/GaffsDay";
+import OurFooter from "../components/OurFooter.vue";
 
 export default {
-  name: 'gaffs',
+  name: "gaffs",
   components: {
-/*     'gaffsresults': GaffsResults, */
-    'gaffsday': GaffsDay,
-    'ourfooter': OurFooter   
+    /*     'gaffsresults': GaffsResults, */
+    gaffsday: GaffsDay,
+    ourfooter: OurFooter
   },
-  methods: {
-
-  },
+  methods: {},
 
   mounted() {
-       fetch("/API/GaffsAPI.json")
+    fetch("/API/GaffsAPI.json")
       .then(response => response.json())
       .then(data => {
-        this.results = data
+        const reduceFce = (item, mapa) => {
+          if (!mapa.has(item.day)) {
+            mapa.set(item.day, { id: item.day, actions: [] });
+          }
+          mapa.get(item.day).actions.push(item);
+          return mapa;
+        };
+
+        this.results = data.reduce(reduceFce, new Map()).values();
         console.log(this.results);
       })
       .catch(error => {
         console.log(error);
       });
-   }
-    
-}
+  }
+};
 </script>
 
 <style>
@@ -84,7 +89,7 @@ p {
   }
 
   .menu li {
-    border-bottom: 1px solid #ffffff;  
+    border-bottom: 1px solid #ffffff;
     flex: 0 0 25%;
   }
 }

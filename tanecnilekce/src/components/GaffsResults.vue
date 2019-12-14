@@ -1,24 +1,20 @@
 <template>
-  <div>
-    <div class="karticka">
-      <div class="detailyNazvy">
-        <p>Termín: </p>
-        <p>Adresa: </p>
-        <p>Taneční škola: </p>
-        <p>Lekce: </p>
-      </div>
-
-      <div class="detailyVysledky">
-        <p>termín</p>
-        <p>její adresa</p>
-        <p>Vybraná tš</p>
-        <p>čeho lekce</p>
-      </div>     
-      <button>Více o akci</button>
+  <div class="karticka">
+    <div class="detailyNazvy">
+      <p>Termín: </p>
+      <p>Adresa: </p>
+      <p>Taneční škola: </p>
+      <p>Lekce: </p>
     </div>
-      
-  </div>
-  
+
+    <div class="detailyVysledky">
+      <p>termín</p>
+      <p>její adresa</p>
+      <p>Vybraná tš</p>
+      <p>čeho lekce</p>
+    </div>     
+    <button>Více o akci</button>
+  </div>  
 </template>
 
 <script>
