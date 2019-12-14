@@ -1,6 +1,6 @@
 <template>
   <div>
-      <div class="karticka">
+    <div class="karticka">
       <a href="http://www.rugcutters.cz/"><img class="logoSkoly" src="@/Images/logo_rugcutters.png" alt="Rug Cutters"></a>
       <div class="detailyNazvy">
         <p>Taneční škola: </p>
@@ -16,7 +16,14 @@
 
 
         <button>Více o kurzu</button>
+      <div class="detailyVysledky">     
+        <p>{{ cardContent.danceSchool}}</p>
+        <p>{{ cardContent.address }}</p>
+        <p>{{ cardContent.tel }}, {{ cardContent.email }}</p>
+        <p>{{ cardContent.style }}, {{ cardContent.level}}</p>
+        <p>{{ cardContent.duration }}, {{ cardContent.day }}, {{ cardContent.time }}</p>
       </div> 
+        <button>Více o kurzu</button>
     </div>
     {{ dataFromHome }}
   </div>
@@ -24,9 +31,8 @@
 
 <script>
 export default {
-    name: 'cardresults',
-    props: ['cardContent']
-
+  name: 'cardresults',
+  props: ['cardContent']
 }
 </script>
 
