@@ -29,12 +29,29 @@
 <script>
 import GaffsResults from '../components/GaffsResults';
 import OurFooter from '../components/OurFooter.vue';
+
 export default {
   name: 'gaffs',
   components: {
     'gaffsresults': GaffsResults,
     'ourfooter': OurFooter   
-  }
+  },
+  methods: {
+
+  },
+
+  mounted() {
+       fetch("/API/GaffsAPI.json")
+      .then(response => response.json())
+      .then(data => {
+        this.results = data
+        console.log(this.results);
+      })
+      .catch(error => {
+        console.log(error);
+      });
+   }
+    
 }
 </script>
 
