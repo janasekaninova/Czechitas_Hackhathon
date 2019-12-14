@@ -6,7 +6,7 @@
        <label for="mesto">Lokalita</label>
         <select v-model="filters.selectedDistrict">
           <option v-for="place in districts"
-                  v-bind:id="place.id"
+                  v-bind:value="place.id"
                   v-bind:key="place.id">
           {{ place.name }}
           </option>
@@ -16,7 +16,7 @@
       <!-- <input placeholder="Enter your username"> -->
         <select v-model="filters.selectedStyle">
           <option v-for="dance in style"
-                  v-bind:id="dance.id"
+                  v-bind:value="dance.id"
                   v-bind:key="dance.id">
           {{ dance.name }}
           </option>
@@ -24,7 +24,7 @@
 
       <weekcheck v-on:dayFilterChange="doOnDayFilterChange($event)" />
      
-      <button type="button">Vyhledat</button>
+      <button type="button" v-on:click="search">Vyhledat</button>
     </div>
 
     <lessonsresults />
@@ -59,7 +59,7 @@ export default {
   data() {
     return {
       districts: [
-      {name: 'Bohunice', id: 1},
+      {name:'Bohunice', id: 1},
       {name:'Bosonohy', id: 2} ,
       {name:'Bystrc', id: 3},
       {name:'Černovice', id: 4} ,
@@ -87,7 +87,9 @@ export default {
       {name:'Vinohrady', id: 26},
       {name:'Žabovřesky', id: 27},
       {name:'Žebětín', id: 28},
-      {name:'Židenice',id: 29}
+      {name:'Židenice',id: 29},
+      {name: 'Černá pole', id: 30},
+      {name: 'Zábrdovice', id: 31}
       ],
 
       style: [
@@ -107,7 +109,22 @@ export default {
   methods: {
     doOnDayFilterChange(value) {
       this.filters.checkedDay = value;
-    }
+    },
+    search() {
+      fetch('/API/LessonsAPI.json')
+      .then(response => response.json())
+      .then(data => {
+       console.log(data.filter(i => {
+         console.log(i.district + ' ' + this.filters.selectedDistrict)
+         return i.district === this.filters.selectedDistrict}));
+      })
+      .catch(error => {
+        console.log(error);
+      })  
+    },
+    
+
+    
   }
 };
 

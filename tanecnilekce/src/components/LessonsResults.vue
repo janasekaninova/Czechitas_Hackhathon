@@ -33,16 +33,16 @@ export default {
       lekce: []
     }
   },
-  mounted() {
-    fetch('/API/lekce.json')
+/*   mounted() {
+    fetch('/API/LessonsAPI.json')
     .then(response => response.json())
     .then(data => {
-      this.lekce = data;
+      this.LessonsAPI = data;
     })
     .catch(error => {
       console.log(error);
     })    
-  },
+  }, */
 /*   props: [ 'selectedStyle' ], */
   computed () {
     return lekce.filter( kurz => kurz.danceFamily === selectedStyle);
