@@ -22,7 +22,7 @@
           </option>
         </select>
 
-      <weekcheck />
+      <weekcheck v-on:dayFilterChange="doOnDayFilterChange($event)" />
      
       <button type="button">Vyhledat</button>
     </div>
@@ -100,6 +100,9 @@ export default {
     } 
   },
   methods: {
+    doOnDayFilterChange(value) {
+      console.log(value);
+    }
   }
 };
 
