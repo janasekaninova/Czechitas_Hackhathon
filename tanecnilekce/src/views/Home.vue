@@ -109,7 +109,7 @@ export default {
       style: [
         { name: "Swing", id: 1 },
         { name: "Latinsko-americké", id: 2 },
-        { name: "Standartní", id: 3 }
+        { name: "Standardní", id: 3 }
       ],
 
       filters: {
@@ -128,13 +128,10 @@ export default {
       fetch("/API/LessonsAPI.json")
         .then(response => response.json())
         .then(data => {
-          const res = data.filter(i => {
-            console.log(i.district + " " + this.filters.selectedDistrict);
-            return i.district === this.filters.selectedDistrict;
-          }).filter(i => {
-            return i.danceFamily === this.filters.selectedStyle;
-          }).filter(i => this.filters.checkedDay.some(day => day === i.day));
-
+          const res = data
+          .filter(i => i.district === this.filters.selectedDistrict)
+          .filter(i => i.danceFamily === this.filters.selectedStyle)
+          .filter(i => this.filters.checkedDay.some(day => day === i.day));
           console.log(res);
         })
         .catch(error => {
