@@ -4,7 +4,7 @@
     <div class="formular" id="app">
       <h2>Chci najít lekce</h2>
        <label for="mesto">Lokalita</label>
-        <select v-model="selectedDistrict">
+        <select v-model="filters.selectedDistrict">
           <option v-for="place in districts"
                   v-bind:id="place.id"
                   v-bind:key="place.id">
@@ -14,7 +14,7 @@
 
       <label for="styl">Styl tance</label>
       <!-- <input placeholder="Enter your username"> -->
-        <select v-model="selectedStyle">
+        <select v-model="filters.selectedStyle">
           <option v-for="dance in style"
                   v-bind:id="dance.id"
                   v-bind:key="dance.id">
@@ -40,7 +40,7 @@
     </section>
 
     <ourfooter />
-    
+    {{filters}}
   </div>
 </template>
 
@@ -58,7 +58,6 @@ export default {
   },
   data() {
     return {
-      selectedDistrict: '',
       districts: [
       {name: 'Bohunice', id: 1},
       {name:'Bosonohy', id: 2} ,
@@ -91,7 +90,6 @@ export default {
       {name:'Židenice',id: 29}
       ],
 
-      selectedStyle: '',
       style: [
         {name: 'Standartní', id: 1},
         {name: 'Latinsko-americké', id: 2},
@@ -99,7 +97,7 @@ export default {
       ],
 
       filters: {
-        checkedDays:[],
+        checkedDay:[],
         selectedDistrict: '',
         selectedStyle: ''
       }
@@ -108,7 +106,7 @@ export default {
 
   methods: {
     doOnDayFilterChange(value) {
-      console.log(value);
+      this.filters.checkedDay = value;
     }
   }
 };
