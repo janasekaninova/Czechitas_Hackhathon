@@ -109,7 +109,7 @@ export default {
       style: [
         { name: "Swing", id: 1 },
         { name: "Latinsko-americké", id: 2 },
-        { name: "Standart", id: 3 }
+        { name: "Standardní", id: 3 }
       ],
 
       filters: {
@@ -133,7 +133,7 @@ export default {
             return i.district === this.filters.selectedDistrict;
           }).filter(i => {
             return i.danceFamily === this.filters.selectedStyle;
-          }).filter();
+          }).filter(i => this.filters.checkedDay.some(day => day === i.day));
 
           console.log(res);
         })
