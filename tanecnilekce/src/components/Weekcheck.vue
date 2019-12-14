@@ -43,6 +43,11 @@ export default {
     return {
       checkedDay: []
     }
+  },
+  watch: {
+    checkedDay: function (value) {
+      this.$emit('dayFilterChange', value);
+    }
   }
 }
 </script>
