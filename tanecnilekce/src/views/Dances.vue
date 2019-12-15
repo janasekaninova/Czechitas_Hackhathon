@@ -36,24 +36,23 @@
       <h3>Collegiate Shag</h3>
       <p>Collegiate Shag, třetí nejpopulárnější swingový tanec, má trochu nejasnou minulost. Známým se stal díky klipu newyorské taneční školy Arthura Murrayho, který v univerzitním klubu objevil skupinu studentů tancujících (pro něj) nový druh tance. Vzal je k sobě do studia a výsledkem bylo instruktážní video Collegiate Shagu. Tanec vešel ve známost i díky hollywoodským filmům, ve kterých jej tehdy tancovali losangeleští tanečníci, a v neposlední řadě i díky kresleným pohádkám. Také Collegiate Shag se tancuje na rychlejší tempa swingových a jazzových skladeb.</p>
       <h3>Blues</h3>
-      <p>Jak už naznačuje samotný název, blues je tanec, který se tančí na bluesovou hudbu. Historie tohoto tance je zcela jistě starší než u swingu, bohužel o ní však mnoho nevíme. Jedná se totiž o tanec lidový, tančil se v různých částech Ameriky. Formoval se převážně v různých barech a klubech, kam si lidé chodili pomalou a klidnou bluesovou hudbu poslechnout a volně na ni i tančili. </p>
+      <p>Jak už naznačuje samotný název, blues je tanec, který se tančí na bluesovou hudbu. Historie tohoto tance je zcela jistě starší než u swingu, bohužel o ní však mnoho nevíme. Jedná se totiž o tanec lidový, tančil se v různých částech Ameriky. Formoval se převážně v různých barech a klubech, kam si lidé chodili pomalou a klidnou bluesovou hudbu poslechnout a volně na ni i tančili.</p>
       <h3>Charleston</h3>
       <p>Z 20’s Charlestonu vychází téměř všechy swingové tance. Ačkoliv to není typický swingový tanec (netancuje se na swingovou, ale spíš na „hot jazzovou” hudbu), do rodiny swingových/jazzových tanců ho řadíme. Vznikl a svoji obrovskou popularitu nabral ve 20. letech minulého století, v době, kterou nazýváme „Golden Age”/„Roaring Twenties”, a oblíbený je dodnes (zkuste vyrazit na Electro Swing party nebo se podívat třeba na film Great Gatsby). V současnosti mu sice ve swingových školách a na festivalech nevěnujeme velkou pozornost, ale určitě je možné se ho ve swingové komunitě naučit. Nejčastěji se s ním setkáte na vystoupeních, nebo pokud kapely hrají hudbu starší než je swing. 20’s Charleston si zatancujete i v páru, daleko častěji jej však uvidíte jako sólo vystoupení.</p>
     </div>
 
-    <!-- paticka -->
     <ourfooter />
   </div>
 </template>
 
 <script>
-import OurFooter from '../components/OurFooter.vue';
+import OurFooter from "../components/OurFooter.vue";
 export default {
-  name: 'dances',
+  name: "dances",
   components: {
-    'ourfooter': OurFooter 
+    ourfooter: OurFooter
   }
-}
+};
 </script>
 
 <style scoped>
@@ -69,6 +68,7 @@ h3 {
 
 p {
   padding: 0 30px;
+  color: #ffffff;
 }
 
 /*///////////////////////// tablet ////////////////////////////////*/
@@ -78,7 +78,7 @@ p {
   }
 
   .menu li {
-    border-bottom: 1px solid #ffffff;  
+    border-bottom: 1px solid #ffffff;
     flex: 0 0 25%;
   }
 }

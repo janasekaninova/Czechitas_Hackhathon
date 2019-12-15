@@ -4,13 +4,8 @@
       class="tancirnyUvod"
     >Už toho umíš dost a chceš si jenom zatančit, nebo se nanejvýš naučit nějaký ten pohyb navíc? Od toho tu jsou tančírny, kde za drobný peníz získáš prostor na parketu a třeba i radu zkušenějších.</div>
 
-    <div class= "day">
-      <gaffsday 
-      v-for="day in sortedWeek" 
-      v-bind:timetable="day"
-      v-bind:key="day.id"
-      />
-
+    <div class="day">
+      <gaffsday v-for="day in sortedWeek" v-bind:timetable="day" v-bind:key="day.id" />
     </div>
 
     <ourfooter />
@@ -32,9 +27,9 @@ export default {
   data() {
     return {
       results: []
-    }
+    };
   },
-  
+
   methods: {},
 
   mounted() {
@@ -49,7 +44,7 @@ export default {
           return mapa;
         };
 
-       this.results = Array.from(data.reduce(reduceFce, new Map()).values());
+        this.results = Array.from(data.reduce(reduceFce, new Map()).values());
         console.log(this.results);
       })
       .catch(error => {
@@ -60,7 +55,8 @@ export default {
   computed: {
     sortedWeek() {
       return this.results.sort(function(a, b) {
-      return a.id - b.id} )
+        return a.id - b.id;
+      });
     }
   }
 };

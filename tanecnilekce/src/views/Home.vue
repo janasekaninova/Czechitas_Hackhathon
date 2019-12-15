@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <!-- vyhledávací formulář-->
     <div class="formular" id="app">
       <h2>Chci najít lekce</h2>
       <label for="mesto">Lokalita</label>
@@ -28,11 +27,12 @@
       <button type="button" v-on:click="search">Vyhledat</button>
     </div>
 
-    <div v-if="results.length === 0 && !pageWasLoaded" class="netanci">
-      Dnes si odpočiň, stejně se nikde nic neděje. 
-    </div>
+    <div
+      v-if="results.length === 0 && !pageWasLoaded"
+      class="netanci"
+    >Dnes si odpočiň, stejně se nikde nic neděje.</div>
     <lessonsresults v-else v-bind:dataFromHome="results" />
- 
+
     <section class="fotogalerie">
       <a href="https://www.danza.cz/">
         <img src="@/Images/logo_danza.png" alt="logo TŠ Danza" />
@@ -123,7 +123,7 @@ export default {
 
       results: [],
 
-      pageWasLoaded: true,
+      pageWasLoaded: true
     };
   },
 
@@ -190,7 +190,6 @@ label {
 .selector {
   height: 2rem;
   margin-bottom: 30px;
-
 }
 
 button {
@@ -201,12 +200,9 @@ button {
   font-weight: bold;
   padding: 10px;
   margin-top: 30px;
-  margin-left: 30px;
   height: 50px;
 }
 
-
-/* fotogalerie */
 .fotogalerie {
   justify-content: space-between;
   align-items: center;

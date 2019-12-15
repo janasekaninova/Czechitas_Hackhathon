@@ -1,31 +1,23 @@
 <template>
   <div>
-    <cardresults 
-      v-for="(item, index) in dataFromHome" 
+    <cardresults
+      v-for="(item, index) in dataFromHome"
       v-bind:cardContent="item"
       v-bind:key="index"
     />
-
   </div>
 </template>
 
 <script>
-import CardResults from './CardResults.vue'
+import CardResults from "./CardResults.vue";
 export default {
-  name: 'lessonsresults',
+  name: "lessonsresults",
   components: {
-    'cardresults': CardResults
-      
+    cardresults: CardResults
   },
-  props: ['dataFromHome'],
-}
+  props: ["dataFromHome"]
+};
 </script>
 
-
-
-
-
-
 <style>
-
 </style>
