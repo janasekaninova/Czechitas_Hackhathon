@@ -1,27 +1,29 @@
 <template>
   <div class="karticka">
-    <a href="http://www.rugcutters.cz/">
+     <font-awesome-icon icon="phone" />
+    <!-- <a href="http://www.rugcutters.cz/">
       <img class="logoSkoly" src="@/Images/logo_rugcutters.png" alt="Rug Cutters" />
-    </a>
-    <div class="detailyNazvy">
-      <p>Taneční škola:</p>
-      <p>Adresa:</p>
-      <p>Kontakt:</p>
-      <p>Lekce:</p>
-      <p>Termín:</p>
-    </div>
+    </a>-->
 
     <div class="detailyVysledky">
-      {{ cardContent }}
-      <button>Více o kurzu</button>
       <div class="detailyVysledky">
-        <p>{{ cardContent.danceSchool}}</p>
+        <h3>{{ cardContent.danceSchool}}</h3>
         <p>{{ cardContent.address }}</p>
         <p>{{ cardContent.tel }}, {{ cardContent.email }}</p>
         <p>{{ cardContent.style }}, {{ cardContent.level }}</p>
         <p>{{ cardContent.duration }}, {{ cardContent.day }}, {{ cardContent.time }}</p>
       </div>
-      <button>Více o kurzu</button>
+      <!-- 
+         <div class="detailyNazvy">
+      <p>Taneční škola:</p>
+      <p>Adresa:</p>
+      <p>Kontakt:</p>
+      <p>Lekce:</p>
+      <p>Termín:</p>
+      </div>-->
+
+      <!--  <button>Více o kurzu</button> -->
+
     </div>
   </div>
 </template>

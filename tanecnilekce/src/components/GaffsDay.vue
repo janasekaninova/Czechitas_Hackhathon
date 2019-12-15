@@ -36,7 +36,6 @@ export default {
         case 7: 
         return "Neděle"        
       }
-
     }
   }
 };
