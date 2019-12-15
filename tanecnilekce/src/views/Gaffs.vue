@@ -37,12 +37,6 @@ export default {
   
   methods: {},
 
-  data() {
-    return {
-      results: []
-    }
-  },
-
   mounted() {
     fetch("/API/GaffsAPI.json")
       .then(response => response.json())

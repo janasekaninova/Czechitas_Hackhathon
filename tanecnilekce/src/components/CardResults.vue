@@ -23,7 +23,6 @@
       </div>
       <button>Více o kurzu</button>
     </div>
-    {{ dataFromHome }}
   </div>
 </template>
 

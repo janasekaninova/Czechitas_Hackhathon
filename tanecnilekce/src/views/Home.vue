@@ -6,7 +6,7 @@
       <label for="mesto">Lokalita</label>
       <select v-model="filters.selectedDistrict">
         <option
-          v-for="place in districts"
+          v-for="place in sortedDistricts"
           v-bind:value="place.id"
           v-bind:key="place.id"
         >{{ place.name }}</option>
@@ -27,7 +27,7 @@
       <button type="button" v-on:click="search">Vyhledat</button>
     </div>
 
-    <lessonsresults v-bind:dataFromHome = "results" />
+    <lessonsresults v-bind:dataFromHome="results" />
 
     <section class="fotogalerie">
       <a href="https://www.danza.cz/">
@@ -54,7 +54,6 @@
     </section>
 
     <ourfooter />
-
   </div>
 </template>
 
@@ -66,9 +65,9 @@ import Weekcheck from "../components/Weekcheck.vue";
 export default {
   name: "home",
   components: {
-    'lessonsresults': LessonsResults,
-    'ourfooter': OurFooter,
-    'weekcheck': Weekcheck
+    lessonsresults: LessonsResults,
+    ourfooter: OurFooter,
+    weekcheck: Weekcheck
   },
   data() {
     return {
@@ -122,27 +121,41 @@ export default {
     };
   },
 
+  computed: {
+    sortedDistricts() {
+      return this.districts.sort(function(a, b) {
+        var x = a.name.toLowerCase();
+        var y = b.name.toLowerCase();
+        if (x < y) {
+          return -1;
+        }
+        if (x > y) {
+          return 1;
+        }
+        return 0;
+      });
+    }
+  },
+
   methods: {
     doOnDayFilterChange(value) {
       this.filters.checkedDay = value;
     },
     search() {
       fetch("/API/LessonsAPI.json")
-      .then(response => response.json())
-      .then(data => {
-        this.results = data
-        .filter(i => i.district === this.filters.selectedDistrict)
-        .filter(i => i.danceFamily === this.filters.selectedStyle)
-        .filter(i => this.filters.checkedDay.some(day => day === i.day));
-        console.log(this.results);
-      })
-      .catch(error => {
-        console.log(error);
-      });
+        .then(response => response.json())
+        .then(data => {
+          this.results = data
+            .filter(i => i.district === this.filters.selectedDistrict)
+            .filter(i => i.danceFamily === this.filters.selectedStyle)
+            .filter(i => this.filters.checkedDay.some(day => day === i.day));
+          console.log(this.results);
+        })
+        .catch(error => {
+          console.log(error);
+        });
     }
-  },
-
-  
+  }
 };
 </script>
 
@@ -167,7 +180,7 @@ label {
 
 .formular {
   padding: 10px;
-/*   margin: 10px; */
+  /*   margin: 10px; */
   margin-left: auto;
   margin-right: auto;
   background-color: #f3ebb6;
