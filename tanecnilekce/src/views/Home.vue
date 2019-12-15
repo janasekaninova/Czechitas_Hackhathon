@@ -5,7 +5,7 @@
       <h2>Chci najít lekce</h2>
       <label for="mesto">Lokalita</label>
       <select class="selector" v-model="filters.selectedDistrict">
-        <option value="" disabled selected>Vyber lokalitu</option>
+        <option value disabled selected>Vyber lokalitu</option>
         <option
           v-for="place in sortedDistricts"
           v-bind:value="place.id"
@@ -15,7 +15,7 @@
 
       <label for="styl">Styl tance</label>
       <select class="selector" v-model="filters.selectedStyle">
-        <option value="" disabled selected>Zvol styl tance</option>
+        <option value disabled selected>Zvol styl tance</option>
         <option
           v-for="dance in style"
           v-bind:value="dance.id"
@@ -28,8 +28,11 @@
       <button type="button" v-on:click="search">Vyhledat</button>
     </div>
 
-    <lessonsresults v-bind:dataFromHome="results" />
-
+    <div v-if="results.length === 0 && !pageWasLoaded" class="netanci">
+      Dnes si odpočiň, stejně se nikde nic neděje. 
+    </div>
+    <lessonsresults v-else v-bind:dataFromHome="results" />
+ 
     <section class="fotogalerie">
       <a href="https://www.danza.cz/">
         <img src="@/Images/logo_danza.png" alt="logo TŠ Danza" />
@@ -118,7 +121,9 @@ export default {
         selectedStyle: ""
       },
 
-      results: []
+      results: [],
+
+      pageWasLoaded: true,
     };
   },
 
@@ -137,6 +142,7 @@ export default {
       this.filters.checkedDay = value;
     },
     search() {
+      this.pageWasLoaded = false;
       fetch("/API/LessonsAPI.json")
         .then(response => response.json())
         .then(data => {
@@ -155,7 +161,6 @@ export default {
 </script>
 
 <style>
-/* vyhledávací formulář */
 .home {
   display: flex;
   flex-direction: column;
@@ -163,7 +168,7 @@ export default {
 }
 
 h2 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 36px;
   margin-top: 5px;
 }
@@ -178,7 +183,8 @@ label {
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #F5EEC3;
+  font-family: "Roboto Slab", serif;
+  background-color: #f5eec3;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 }
 .selector {
@@ -190,7 +196,7 @@ label {
 button {
   color: #280004;
   background-color: #ffffff;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 16px;
   font-weight: bold;
   padding: 10px;
@@ -216,6 +222,14 @@ button {
 
 .fotogalerie img:hover {
   filter: grayscale(0);
+}
+
+.netanci {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  padding: 25px;
 }
 
 body {
