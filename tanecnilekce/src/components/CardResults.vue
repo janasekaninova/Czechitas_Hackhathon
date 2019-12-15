@@ -1,5 +1,6 @@
 <template>
   <div class="karticka">
+     <font-awesome-icon icon="phone" />
     <!-- <a href="http://www.rugcutters.cz/">
       <img class="logoSkoly" src="@/Images/logo_rugcutters.png" alt="Rug Cutters" />
     </a>-->
