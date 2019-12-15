@@ -24,7 +24,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .detailyNazvy {
   padding-right: 20px;
 }

@@ -53,6 +53,7 @@ h3 {
 .karticka a {
   flex-basis: auto;
   margin: 16px 20px 0 16px;
+  color: #280004;
 }
 
 .karticka img {
