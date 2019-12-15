@@ -84,6 +84,7 @@ p {
   font-size: 22px;
   padding: 20px 40px;
   text-align: center;
+  color: #ffffff;
 }
 
 /*///////////////////////// tablet ////////////////////////////////*/

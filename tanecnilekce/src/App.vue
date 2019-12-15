@@ -10,10 +10,10 @@
       <p class="perex">Chceš začít tančit, ale nevíš kudy do toho? Pomůžeme ti s prvními krůčky - řekni nám, čemu se chceš věnovat a my ti ukážeme nabídku otevřených kurzů v okolí.</p>
       <section class="listaMenu">
             <ul class="menu">
-              <router-link to="/">Vyhledávání</router-link>
-              <router-link to="/dances">Tance</router-link>
-              <router-link to="/gaffs">Tančírny</router-link>
-              <router-link to="/about">O nás</router-link>
+              <router-link to="/" exact-active-class="aktivni">Vyhledávání</router-link>
+              <router-link to="/dances" exact-active-class="aktivni">Tance</router-link>
+              <router-link to="/gaffs" exact-active-class="aktivni">Tančírny</router-link>
+              <router-link to="/about" exact-active-class="aktivni">O nás</router-link>
             </ul>
       </section>
     </header>
@@ -42,7 +42,6 @@ body {
     margin: 0;
 }
 
-/* hlavicka */
 header {
     background-image: 
         linear-gradient(to bottom,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -71,7 +70,10 @@ header {
     font-size: 18px;
 }
 
-/* menu */
+.aktivni {
+    background-color: grey;
+}
+
 .menu {
     list-style: none;
     text-transform: uppercase;
@@ -130,9 +132,4 @@ footer a {
         padding: 50px 150px;
     }
 }
-
-
-/* #nav a.router-link-exact-active {
-  color: #42b983;
-} */
 </style>

@@ -17,9 +17,7 @@
       </div>
     </div>
 
-      <!-- paticka -->
     <ourfooter />
-
 
   </div>
 </template>
@@ -33,7 +31,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+p {
+  color: #ffffff
+}
+
 .onas {
   display: flex;
   flex-wrap: wrap;

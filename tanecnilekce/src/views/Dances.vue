@@ -56,13 +56,15 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 h2 {
   padding: 20px;
+  color: #ffffff;
 }
 
 h3 {
   padding: 0 50px;
+  color: #ffffff;
 }
 
 p {
