@@ -4,7 +4,7 @@
     <div class="formular" id="app">
       <h2>Chci najít lekce</h2>
       <label for="mesto">Lokalita</label>
-      <select v-model="filters.selectedDistrict">
+      <select class="selector" v-model="filters.selectedDistrict">
         <option value="" disabled selected>Vyber lokalitu</option>
         <option
           v-for="place in sortedDistricts"
@@ -14,7 +14,7 @@
       </select>
 
       <label for="styl">Styl tance</label>
-      <select v-model="filters.selectedStyle">
+      <select class="selector" v-model="filters.selectedStyle">
         <option value="" disabled selected>Zvol styl tance</option>
         <option
           v-for="dance in style"
@@ -180,6 +180,10 @@ label {
   margin-right: auto;
   background-color: #f3ebb6;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+}
+.selector {
+  height: 2rem;
+
 }
 
 button {
