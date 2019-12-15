@@ -1,9 +1,5 @@
 <template>
   <div class="karticka">
-  <!--   <a href="http://www.rugcutters.cz/">
-      <img class="logoSkoly" src="@/Images/logo_rugcutters.png" alt="Rug Cutters" />
-    </a> -->
-
     <div class="detailVysledky">
       <h3>{{ cardContent.danceSchool}}</h3>
       <div class="detailyVysledku">
@@ -16,7 +12,7 @@
       <div class="detailyNazvy">
         <p><font-awesome-icon icon="phone" class="icon"/>Tel:{{ cardContent.tel }} </p>
         <p><font-awesome-icon icon="envelope" class="icon"/> E-mail: {{ cardContent.email }} </p>
-        <p><font-awesome-icon icon="link" class="icon"/> Link: {{ cardContent.link}} </p>
+        <p><font-awesome-icon icon="link" class="icon"/> <a v-bind:href="cardContent.link">{{ cardContent.link}}</a></p>
       </div>
 
     </div>
@@ -41,7 +37,7 @@ h3 {
   margin-right: auto;
   padding: 10px;
   background-color: #F5EEC3;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 10px #F5EEC3(0, 0, 0, 0.5);
   display: flex;
   flex-wrap: wrap;
 }

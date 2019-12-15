@@ -176,15 +176,14 @@ label {
 
 .formular {
   padding: 10px;
-  /*   margin: 10px; */
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Roboto Slab', serif;
   background-color: #F5EEC3;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 }
 .selector {
   height: 2rem;
+  margin-bottom: 30px;
 
 }
 
@@ -195,8 +194,11 @@ button {
   font-size: 16px;
   font-weight: bold;
   padding: 10px;
-
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 50px;
 }
+
 
 /* fotogalerie */
 .fotogalerie {

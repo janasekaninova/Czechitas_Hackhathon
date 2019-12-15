@@ -4,7 +4,7 @@
       class="tancirnyUvod"
     >Už toho umíš dost a chceš si jenom zatančit, nebo se nanejvýš naučit nějaký ten pohyb navíc? Od toho tu jsou tančírny, kde za drobný peníz získáš prostor na parketu a třeba i radu zkušenějších.</div>
 
-    <div>
+    <div class= "day">
       <gaffsday 
       v-for="day in sortedWeek" 
       v-bind:timetable="day"
@@ -84,6 +84,11 @@ p {
   font-size: 22px;
   padding: 20px 40px;
   text-align: center;
+  color: white;
+}
+
+.day {
+  color: white;
 }
 
 /*///////////////////////// tablet ////////////////////////////////*/

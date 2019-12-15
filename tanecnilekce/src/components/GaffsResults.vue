@@ -1,19 +1,15 @@
 <template>
   <div class="karticka">
+    <h3>{{ singleGaff.danceSchool }}</h3>
     <div class="detailyNazvy">
-      <p>Termín: </p>
-      <p>Adresa: </p>
-      <p>Taneční škola: </p>
-      <p>Lekce: </p>
+      <p>{{ singleGaff.danceFamily }}</p>
+      <p>{{ singleGaff.address }}</p>
+      <p>{{ singleGaff.time }}</p>
     </div>
 
     <div class="detailyVysledky">
-      <p>{{ singleGaff.time }}</p>
-      <p>{{ singleGaff.address }}</p>
-      <p>{{ singleGaff.danceSchool }}</p>
-      <p>{{ singleGaff.danceFamily }}</p>
+     <p><font-awesome-icon icon="link" class="icon"/><a v-bind:href="singleGaff.link">{{ singleGaff.link}}</a></p>
     </div>     
-    <button>Více o akci</button>
   </div>  
 </template>
 
@@ -38,5 +34,12 @@ button {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
   padding: 10px;
+}
+
+.karticka {
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  flex-wrap: wrap;
 }
 </style>

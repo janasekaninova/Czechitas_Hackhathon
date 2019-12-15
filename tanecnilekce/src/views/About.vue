@@ -6,12 +6,12 @@
       </div>
 
       <div class="janina">
-        <img class="fotoJanina" src="@/Images/Janina medailonek foto.png"></img>
+        <img class="fotoJanina" src="@/Images/Janina medailonek_transparentni.png"></img>
         <p class="oJanine">V roce 2018 jsem zcela změnila obor a v současnosti pracuji v malé IT firmě na oddělení supportu (klientům i kolegům). Teď se chci naučit web, protože to je způsob komunikace a práce s lidmi, která mě prostě baví. S tím souvisí i UX, které mě zaujalo. Fotím na film a do budoucna bych se tomu chtěla věnovat více, řízeně padám na boulderu; Skotsko, káva a cestování (na motorce) jsou lásky na celý život, knihy čtu podruhé jen výjimečně, nerada prohrávám u deskovek, ale jinak se je nenaučím.</p>
       </div>
 
       <div class="janca">
-        <img class="fotoJanca" src="@/Images/Kulata Janicka.jpg"></img>
+        <img class="fotoJanca" src="@/Images/Jana medailonek_transparentni.png"></img>
         <p class="oJance">Jako neIT zaměstnanec v IT firmě jsem zjistila, jak to v takové firmě chodí a že se mi tam moc líbí. K tomu se přidala touha naučit se něco nového a cesta do Czechitas byla jasná. Miluji příběhy, jsem trochu perfekcionistka a velký dříč. Mám ráda zvířata a věci, které jsou užitečné, a ještě k tomu hezky vypadají. Poslední dobou mě táhne téma cirkulární ekonomiky, zero waste, minimalismus a UX. Ráda bych se vrátila ke hře na klavír a přidala k tomu i ukulele.
         </p>
       </div>
@@ -38,6 +38,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  color: white;
 }
 
 .oProjektu {
