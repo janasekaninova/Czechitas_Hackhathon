@@ -67,7 +67,7 @@ header {
 
 .perex {
     padding: 10px 40px;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .aktivni {

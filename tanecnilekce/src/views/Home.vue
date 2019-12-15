@@ -28,7 +28,7 @@
       <button type="button" v-on:click="search">Vyhledat</button>
     </div>
 
-    <div v-if="results.length === 0" class="netanci">
+    <div v-if="results.length === 0 && !pageWasLoaded" class="netanci">
       Dnes si odpočiň, stejně se nikde nic neděje. 
     </div>
     <lessonsresults v-else v-bind:dataFromHome="results" />
@@ -121,7 +121,9 @@ export default {
         selectedStyle: ""
       },
 
-      results: []
+      results: [],
+
+      pageWasLoaded: true,
     };
   },
 
@@ -140,6 +142,7 @@ export default {
       this.filters.checkedDay = value;
     },
     search() {
+      this.pageWasLoaded = false;
       fetch("/API/LessonsAPI.json")
         .then(response => response.json())
         .then(data => {
