@@ -1,28 +1,23 @@
 <template>
   <div class="karticka">
-     <font-awesome-icon icon="phone" />
-    <!-- <a href="http://www.rugcutters.cz/">
+  <!--   <a href="http://www.rugcutters.cz/">
       <img class="logoSkoly" src="@/Images/logo_rugcutters.png" alt="Rug Cutters" />
-    </a>-->
+    </a> -->
 
-    <div class="detailyVysledky">
-      <div class="detailyVysledky">
-        <h3>{{ cardContent.danceSchool}}</h3>
-        <p>{{ cardContent.address }}</p>
-        <p>{{ cardContent.tel }}, {{ cardContent.email }}</p>
+    <div class="detailVysledky">
+      <h3>{{ cardContent.danceSchool}}</h3>
+      <div class="detailyVysledku">
         <p>{{ cardContent.style }}, {{ cardContent.level }}</p>
-        <p>{{ cardContent.duration }}, {{ cardContent.day }}, {{ cardContent.time }}</p>
+        <p>{{ cardContent.day }}, {{ cardContent.time }}</p>
+        <p>{{ cardContent.duration }},</p>
+        <p>{{ cardContent.address }}</p>
       </div>
-      <!-- 
-         <div class="detailyNazvy">
-      <p>Taneční škola:</p>
-      <p>Adresa:</p>
-      <p>Kontakt:</p>
-      <p>Lekce:</p>
-      <p>Termín:</p>
-      </div>-->
 
-      <!--  <button>Více o kurzu</button> -->
+      <div class="detailyNazvy">
+        <p><font-awesome-icon icon="phone" class="icon"/>Tel:{{ cardContent.tel }} </p>
+        <p><font-awesome-icon icon="envelope" class="icon"/> E-mail: {{ cardContent.email }} </p>
+        <p><font-awesome-icon icon="link" class="icon"/> Link: {{ cardContent.link}} </p>
+      </div>
 
     </div>
   </div>
@@ -36,12 +31,16 @@ export default {
 </script>
 
 <style>
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px
+}
 .karticka {
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  background-color: #f3ebb6;
+  background-color: #F5EEC3;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-wrap: wrap;
@@ -58,6 +57,15 @@ export default {
 
 .detailyNazvy {
   padding-right: 20px;
+}
+
+.detailVysledky {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+ padding-right: 15px;
 }
 
 /*///////////////////////// PC ////////////////////////////////*/

@@ -155,6 +155,7 @@ export default {
 }
 
 h2 {
+  font-family: 'Roboto Slab', serif;
   font-size: 36px;
   margin-top: 5px;
 }
@@ -167,20 +168,21 @@ label {
 
 .formular {
   padding: 10px;
-/*   margin: 10px; */
   margin-left: auto;
   margin-right: auto;
-  background-color: #f3ebb6;
+  font-family: 'Roboto Slab', serif;
+  background-color: #F5EEC3;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 }
 
 button {
   color: #280004;
   background-color: #ffffff;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 16px;
   font-weight: bold;
   padding: 10px;
+
 }
 
 /* fotogalerie */
@@ -199,6 +201,10 @@ button {
 
 .fotogalerie img:hover {
   filter: grayscale(0);
+}
+
+body {
+  background-color: #050609;
 }
 
 /*///////////////////////// tablet ////////////////////////////////*/

@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+
     
     <header>
       <h1 class="titulek">Taneční kurzy a kde je najít</h1>
@@ -54,8 +56,9 @@ header {
 }
 
 .titulek {
+    font-family: 'Roboto Slab', serif;
     margin: 50px 10px;
-    font-size: 42px;
+    font-size: 50px;
 }
 
 .logo {
